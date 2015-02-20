@@ -31,7 +31,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classCDomainConfiguration.html#aeed8949fa91022c819eeb49adb5f3b3e" target="_top" xlink:title="CDomainConfiguration\l::getDataSize">
+<g id="a_node3"><a xlink:href="classCDomainConfiguration.html#a5cdebfcc47c7e7571f9a726b619f374a" target="_top" xlink:title="CDomainConfiguration\l::getDataSize">
 <polygon fill="white" stroke="black" points="309,-0.5 309,-30.5 434,-30.5 434,-0.5 309,-0.5"/>
 <text text-anchor="start" x="317" y="-18.5" font-family="Verdana" font-size="10.00">CDomainConfiguration</text>
 <text text-anchor="middle" x="371.5" y="-7.5" font-family="Verdana" font-size="10.00">::getDataSize</text>

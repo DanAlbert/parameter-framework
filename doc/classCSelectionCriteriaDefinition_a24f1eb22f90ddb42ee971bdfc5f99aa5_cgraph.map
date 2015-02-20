@@ -1,6 +1,6 @@
 <map id="CSelectionCriteriaDefinition::listSelectionCriteria" name="CSelectionCriteriaDefinition::listSelectionCriteria">
-<area shape="rect" id="node2" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="253,5,436,32"/>
-<area shape="rect" id="node3" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="273,56,417,83"/>
+<area shape="rect" id="node2" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="253,5,436,32"/>
+<area shape="rect" id="node3" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="273,56,417,83"/>
 <area shape="rect" id="node4" href="$classCSelectionCriterion.html#a10a460a1ee7b1a38b34ab8eb90ea74f9" title="User request. " alt="" coords="249,107,440,149"/>
 <area shape="rect" id="node5" href="$classCElement.html#a834a32898950ca2ce9b629aa3367101e" title="CElement::appendTitle" alt="" coords="491,5,657,32"/>
 <area shape="rect" id="node6" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="498,56,650,83"/>

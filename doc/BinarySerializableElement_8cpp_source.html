@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -132,48 +132,48 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classCBinarySerializableElement.html#a1b023138703ff0807ae1a25724f1f7d4">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCBinarySerializableElement.html#a1b023138703ff0807ae1a25724f1f7d4">CBinarySerializableElement::binarySerialize</a>(<a class="code" href="classCBinaryStream.html">CBinaryStream</a>&amp; binaryStream)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Propagate</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">size_t</span> uiNbChildren = <a class="code" href="classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5">getNbChildren</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">size_t</span> uiChild;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    uint32_t uiNbChildren = <a class="code" href="classCElement.html#a25f58d9d8b35e770806d669fb2a378e4">getNbChildren</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    uint32_t uiChild;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">for</span> (uiChild = 0; uiChild &lt; uiNbChildren; uiChild++) {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>* pChild = <span class="keyword">static_cast&lt;</span><a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>*<span class="keyword">&gt;</span>(<a class="code" href="classCElement.html#a9bba10d2dc72821589a898e16ace9ae5">getChild</a>(uiChild));</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>* pChild = <span class="keyword">static_cast&lt;</span><a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>*<span class="keyword">&gt;</span>(<a class="code" href="classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079">getChild</a>(uiChild));</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        pChild-&gt;<a class="code" href="classCBinarySerializableElement.html#a1b023138703ff0807ae1a25724f1f7d4">binarySerialize</a>(binaryStream);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">// Data size</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classCBinarySerializableElement.html#a1a5d4ca3376f59642f4143629c7cd565">   56</a></span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="classCBinarySerializableElement.html#a1a5d4ca3376f59642f4143629c7cd565">CBinarySerializableElement::getDataSize</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classCBinarySerializableElement.html#af291be4ac902bdc4b0401cc7f9298618">   56</a></span>&#160;uint32_t <a class="code" href="classCBinarySerializableElement.html#af291be4ac902bdc4b0401cc7f9298618">CBinarySerializableElement::getDataSize</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// Propagate</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">size_t</span> uiDataSize = 0;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">size_t</span> uiNbChildren = <a class="code" href="classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5">getNbChildren</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">size_t</span> uiChild;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    uint32_t uiDataSize = 0;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    uint32_t uiNbChildren = <a class="code" href="classCElement.html#a25f58d9d8b35e770806d669fb2a378e4">getNbChildren</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    uint32_t uiChild;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">for</span> (uiChild = 0; uiChild &lt; uiNbChildren; uiChild++) {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">const</span> <a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>* pChild = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>*<span class="keyword">&gt;</span>(<a class="code" href="classCElement.html#a9bba10d2dc72821589a898e16ace9ae5">getChild</a>(uiChild));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">const</span> <a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>* pChild = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span><a class="code" href="classCBinarySerializableElement.html">CBinarySerializableElement</a>*<span class="keyword">&gt;</span>(<a class="code" href="classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079">getChild</a>(uiChild));</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        uiDataSize += pChild-&gt;<a class="code" href="classCBinarySerializableElement.html#a1a5d4ca3376f59642f4143629c7cd565">getDataSize</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        uiDataSize += pChild-&gt;<a class="code" href="classCBinarySerializableElement.html#af291be4ac902bdc4b0401cc7f9298618">getDataSize</a>();</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> uiDataSize;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="ttc" id="classCBinarySerializableElement_html_a1b023138703ff0807ae1a25724f1f7d4"><div class="ttname"><a href="classCBinarySerializableElement.html#a1b023138703ff0807ae1a25724f1f7d4">CBinarySerializableElement::binarySerialize</a></div><div class="ttdeci">virtual void binarySerialize(CBinaryStream &amp;binaryStream)</div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8cpp_source.html#l00041">BinarySerializableElement.cpp:41</a></div></div>
-<div class="ttc" id="classCElement_html_a58b6cdb5715497442fde6afa1e65f8e5"><div class="ttname"><a href="classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5">CElement::getNbChildren</a></div><div class="ttdeci">size_t getNbChildren() const </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00500">Element.cpp:500</a></div></div>
 <div class="ttc" id="classCBinaryStream_html"><div class="ttname"><a href="classCBinaryStream.html">CBinaryStream</a></div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8h_source.html#l00036">BinaryStream.h:36</a></div></div>
+<div class="ttc" id="classCElement_html_a25f58d9d8b35e770806d669fb2a378e4"><div class="ttname"><a href="classCElement.html#a25f58d9d8b35e770806d669fb2a378e4">CElement::getNbChildren</a></div><div class="ttdeci">uint32_t getNbChildren() const </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00509">Element.cpp:509</a></div></div>
 <div class="ttc" id="classCBinarySerializableElement_html"><div class="ttname"><a href="classCBinarySerializableElement.html">CBinarySerializableElement</a></div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8h_source.html#l00037">BinarySerializableElement.h:37</a></div></div>
+<div class="ttc" id="classCBinarySerializableElement_html_af291be4ac902bdc4b0401cc7f9298618"><div class="ttname"><a href="classCBinarySerializableElement.html#af291be4ac902bdc4b0401cc7f9298618">CBinarySerializableElement::getDataSize</a></div><div class="ttdeci">virtual uint32_t getDataSize() const </div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8cpp_source.html#l00056">BinarySerializableElement.cpp:56</a></div></div>
+<div class="ttc" id="classCElement_html_a41bf126c3fdbb5bec0c2c3dcf35e9079"><div class="ttname"><a href="classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079">CElement::getChild</a></div><div class="ttdeci">const CElement * getChild(uint32_t uiIndex) const </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00397">Element.cpp:397</a></div></div>
 <div class="ttc" id="BinarySerializableElement_8cpp_html_a6542a2bd356f5c5a12e03135a66e2dae"><div class="ttname"><a href="BinarySerializableElement_8cpp.html#a6542a2bd356f5c5a12e03135a66e2dae">base</a></div><div class="ttdeci">#define base</div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8cpp_source.html#l00032">BinarySerializableElement.cpp:32</a></div></div>
 <div class="ttc" id="BinarySerializableElement_8h_html"><div class="ttname"><a href="BinarySerializableElement_8h.html">BinarySerializableElement.h</a></div></div>
 <div class="ttc" id="classCBinarySerializableElement_html_a68a3f63bbdb0610f869f6507e4a4e580"><div class="ttname"><a href="classCBinarySerializableElement.html#a68a3f63bbdb0610f869f6507e4a4e580">CBinarySerializableElement::CBinarySerializableElement</a></div><div class="ttdeci">CBinarySerializableElement(const std::string &amp;strName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8cpp_source.html#l00036">BinarySerializableElement.cpp:36</a></div></div>
-<div class="ttc" id="classCBinarySerializableElement_html_a1a5d4ca3376f59642f4143629c7cd565"><div class="ttname"><a href="classCBinarySerializableElement.html#a1a5d4ca3376f59642f4143629c7cd565">CBinarySerializableElement::getDataSize</a></div><div class="ttdeci">virtual size_t getDataSize() const </div><div class="ttdef"><b>Definition:</b> <a href="BinarySerializableElement_8cpp_source.html#l00056">BinarySerializableElement.cpp:56</a></div></div>
-<div class="ttc" id="classCElement_html_a9bba10d2dc72821589a898e16ace9ae5"><div class="ttname"><a href="classCElement.html#a9bba10d2dc72821589a898e16ace9ae5">CElement::getChild</a></div><div class="ttdeci">const CElement * getChild(size_t uiIndex) const </div><div class="ttdoc">Get a child element (const) </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00397">Element.cpp:397</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

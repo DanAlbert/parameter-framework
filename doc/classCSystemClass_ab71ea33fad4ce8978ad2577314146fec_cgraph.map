@@ -1,6 +1,6 @@
 <map id="CSystemClass::checkForSubsystemsToResync" name="CSystemClass::checkForSubsystemsToResync">
-<area shape="rect" id="node2" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="813,131,996,158"/>
-<area shape="rect" id="node3" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="833,211,977,238"/>
+<area shape="rect" id="node2" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="813,131,996,158"/>
+<area shape="rect" id="node3" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="833,211,977,238"/>
 <area shape="rect" id="node4" href="$classCSubsystem.html#a4cb6e87e55f40b52408e42285e504be4" title="CSubsystem::needResync" alt="" coords="312,262,499,289"/>
 <area shape="rect" id="node5" href="$classCElement.html#aaa4df1b13a53263f8cc2b668172873d9" title="CElement::log_info" alt="" coords="335,313,476,339"/>
 <area shape="rect" id="node6" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="329,363,481,390"/>

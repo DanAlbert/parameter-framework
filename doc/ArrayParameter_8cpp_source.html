@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -348,10 +348,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="keywordtype">bool</span> CArrayParameter::setValues(uint32_t uiStartIndex, uint32_t uiBaseOffset, <span class="keyword">const</span> <span class="keywordtype">string</span>&amp; strValue, <a class="code" href="classCParameterAccessContext.html">CParameterAccessContext</a>&amp; parameterAccessContext)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="comment">// Deal with value(s)</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    Tokenizer tok(strValue, Tokenizer::defaultDelimiters + <span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    Tokenizer tok(strValue, DEFAULT_DELIMITER + <span class="stringliteral">&quot;,&quot;</span>);</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    std::vector&lt;string&gt; astrValues = tok.split();</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordtype">size_t</span> uiNbValues = astrValues.size();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    uint32_t uiNbValues = astrValues.size();</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="comment">// Check number of provided values</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">if</span> (uiNbValues + uiStartIndex &gt; getArrayLength()) {</div>
@@ -559,8 +559,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCArrayParameter_html_a12f240fb80a55cdf1cd9b7f1f7593980"><div class="ttname"><a href="classCArrayParameter.html#a12f240fb80a55cdf1cd9b7f1f7593980">CArrayParameter::CArrayParameter</a></div><div class="ttdeci">CArrayParameter(const std::string &amp;strName, const CTypeElement *pTypeElement)</div><div class="ttdef"><b>Definition:</b> <a href="ArrayParameter_8cpp_source.html#l00043">ArrayParameter.cpp:43</a></div></div>
 <div class="ttc" id="classCArrayParameter_html_a4608f98d60cb8e8b009aa73438c7b2a1"><div class="ttname"><a href="classCArrayParameter.html#a4608f98d60cb8e8b009aa73438c7b2a1">CArrayParameter::getFootPrint</a></div><div class="ttdeci">virtual uint32_t getFootPrint() const </div><div class="ttdef"><b>Definition:</b> <a href="ArrayParameter_8cpp_source.html#l00047">ArrayParameter.cpp:47</a></div></div>
 <div class="ttc" id="classCPathNavigator_html_a06f35d45c0bf392e11de0bf1197cc589"><div class="ttname"><a href="classCPathNavigator.html#a06f35d45c0bf392e11de0bf1197cc589">CPathNavigator::next</a></div><div class="ttdeci">std::string * next()</div><div class="ttdef"><b>Definition:</b> <a href="PathNavigator_8cpp_source.html#l00083">PathNavigator.cpp:83</a></div></div>
-<div class="ttc" id="classCParameterBlackboard_html"><div class="ttname"><a href="classCParameterBlackboard.html">CParameterBlackboard</a></div><div class="ttdef"><b>Definition:</b> <a href="ParameterBlackboard_8h_source.html#l00036">ParameterBlackboard.h:36</a></div></div>
-<div class="ttc" id="classCElement_html_a7022c0fc8063f0aae9d97b06e74d4ac1"><div class="ttname"><a href="classCElement.html#a7022c0fc8063f0aae9d97b06e74d4ac1">CElement::getPath</a></div><div class="ttdeci">std::string getPath() const </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00662">Element.cpp:662</a></div></div>
+<div class="ttc" id="classCParameterBlackboard_html"><div class="ttname"><a href="classCParameterBlackboard.html">CParameterBlackboard</a></div><div class="ttdef"><b>Definition:</b> <a href="ParameterBlackboard_8h_source.html#l00035">ParameterBlackboard.h:35</a></div></div>
+<div class="ttc" id="classCElement_html_a7022c0fc8063f0aae9d97b06e74d4ac1"><div class="ttname"><a href="classCElement.html#a7022c0fc8063f0aae9d97b06e74d4ac1">CElement::getPath</a></div><div class="ttdeci">std::string getPath() const </div><div class="ttdef"><b>Definition:</b> <a href="Element_8cpp_source.html#l00703">Element.cpp:703</a></div></div>
 <div class="ttc" id="classCArrayParameter_html_a77b0755dd5652a846a0d1184b49c2862"><div class="ttname"><a href="classCArrayParameter.html#a77b0755dd5652a846a0d1184b49c2862">CArrayParameter::accessAsBooleanArray</a></div><div class="ttdeci">virtual bool accessAsBooleanArray(std::vector&lt; bool &gt; &amp;abValues, bool bSet, CParameterAccessContext &amp;parameterAccessContext) const </div><div class="ttdef"><b>Definition:</b> <a href="ArrayParameter_8cpp_source.html#l00146">ArrayParameter.cpp:146</a></div></div>
 <div class="ttc" id="classCArrayParameter_html_a192ed81d047795b1823cab20337ad283"><div class="ttname"><a href="classCArrayParameter.html#a192ed81d047795b1823cab20337ad283">CArrayParameter::serializeXmlSettings</a></div><div class="ttdeci">virtual bool serializeXmlSettings(CXmlElement &amp;xmlConfigurationSettingsElementContent, CConfigurationAccessContext &amp;configurationAccessContext) const </div><div class="ttdef"><b>Definition:</b> <a href="ArrayParameter_8cpp_source.html#l00070">ArrayParameter.cpp:70</a></div></div>
 <div class="ttc" id="classCConfigurationAccessContext_html_ac0a975afc840488e5e82345441de56cc"><div class="ttname"><a href="classCConfigurationAccessContext.html#ac0a975afc840488e5e82345441de56cc">CConfigurationAccessContext::serializeOut</a></div><div class="ttdeci">bool serializeOut() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurationAccessContext_8cpp_source.html#l00043">ConfigurationAccessContext.cpp:43</a></div></div>
@@ -571,7 +571,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

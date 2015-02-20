@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['read',['read',['../classCBinaryStream.html#a82ce448e447ad3801b55d8cf4c00f61f',1,'CBinaryStream::read()'],['../classCSocket.html#a476a64ffeb8843cbce048dd89a62e38c',1,'CSocket::read()']]],
-  ['readdata',['readData',['../classCMessage.html#ae5221bcb6b376feb894fcda7e2969b66',1,'CMessage']]],
+  ['read',['read',['../classCBinaryStream.html#a3dbd7c97a6564a16f8097a863f068f59',1,'CBinaryStream::read()'],['../classCSocket.html#a476a64ffeb8843cbce048dd89a62e38c',1,'CSocket::read()']]],
+  ['readdata',['readData',['../classCMessage.html#aa34d72dda33c857f8b55ad562e3a22d0',1,'CMessage']]],
   ['readinteger',['readInteger',['../classCParameterBlackboard.html#ab9d9a3d649fccda93ede444ed12d8791',1,'CParameterBlackboard']]],
-  ['readstring',['readString',['../classCParameterBlackboard.html#a7d0efe77c5d8a11f6ff418b8013c8ede',1,'CParameterBlackboard::readString()'],['../classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2',1,'CMessage::readString()']]],
+  ['readstring',['readString',['../classCParameterBlackboard.html#ac3485fe47c5cf8879d7bd4d9b91c78c7',1,'CParameterBlackboard::readString()'],['../classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2',1,'CMessage::readString()']]],
   ['receivefromhw',['receiveFromHW',['../classCSubsystemObject.html#acc72dd9fbfe6ea8a16baca26dee83f97',1,'CSubsystemObject']]],
   ['remotecommandprocess',['remoteCommandProcess',['../classIRemoteCommandHandler.html#a6118ed857180025b68553162e2c5031e',1,'IRemoteCommandHandler']]],
   ['removechild',['removeChild',['../classCElement.html#a4aec98bde47367325cf332a5dc471eb9',1,'CElement']]],

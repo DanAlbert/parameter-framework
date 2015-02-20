@@ -5,7 +5,7 @@
 <area shape="rect" id="node4" href="$classCElement.html#a8595814a3159f32f874269907e70b260" title="CElement::findChild" alt="" coords="757,13,903,39"/>
 <area shape="rect" id="node6" href="$classCDomainConfiguration.html#a0f9e4ae6ceadd57ec7d5e7a570939d38" title="CDomainConfiguration\l::getApplicationRule" alt="" coords="747,71,913,112"/>
 <area shape="rect" id="node7" href="$classCCompoundRule.html#a4852b10618c0cf75059018ae60fb6eab" title="CCompoundRule::dump" alt="" coords="961,78,1133,105"/>
-<area shape="rect" id="node8" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="1181,27,1364,54"/>
-<area shape="rect" id="node9" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="1201,78,1345,105"/>
+<area shape="rect" id="node8" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="1181,27,1364,54"/>
+<area shape="rect" id="node9" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="1201,78,1345,105"/>
 <area shape="rect" id="node10" href="$classCRule.html#aa4a929f43c17c8b7b1992062f019f530" title="CRule::dump" alt="" coords="1221,129,1324,155"/>
 </map>

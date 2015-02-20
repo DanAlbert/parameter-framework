@@ -1,5 +1,5 @@
 <map id="CElement::childrenToXml" name="CElement::childrenToXml">
-<area shape="rect" id="node2" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="232,5,415,32"/>
+<area shape="rect" id="node2" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="232,5,415,32"/>
 <area shape="rect" id="node3" href="$classCElement.html#aed2ca7f2a56dbf2edcd82167859535ee" title="CElement::getKind" alt="" coords="253,56,393,83"/>
 <area shape="rect" id="node4" href="$classCElement.html#a7ce1bde0fda5cf412b652000cab473e4" title="CElement::toXml" alt="" coords="259,107,388,133"/>
 </map>

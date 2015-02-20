@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -273,7 +273,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                <span class="keyword">const</span> CRemoteCommandParserItem* pRemoteCommandParserItem = _remoteCommandParserVector[uiIndex];</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                uint32_t uiRemoteCommandUsageLength = (uint32_t)pRemoteCommandParserItem-&gt;usage().length();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                uint32_t uiRemoteCommandUsageLength = pRemoteCommandParserItem-&gt;usage().length();</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                <span class="keywordflow">if</span> (uiRemoteCommandUsageLength &gt; _uiMaxCommandUsageLength) {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
@@ -301,7 +301,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            strResult += strUsage;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="comment">// Align</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            uint32_t uiToSpacesAdd = _uiMaxCommandUsageLength + 5 - (uint32_t)strUsage.length();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            uint32_t uiToSpacesAdd = _uiMaxCommandUsageLength + 5 - strUsage.length();</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <span class="keywordflow">while</span> (uiToSpacesAdd--) {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
@@ -352,7 +352,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:11 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

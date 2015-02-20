@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -150,16 +150,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// Collect received data</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> collectReceivedData();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// Size</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment"></span>    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> getDataSize() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// Trim input std::string</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">static</span> std::string trim(<span class="keyword">const</span> std::string&amp; strToTrim);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// Command</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    std::string _strCommand;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// Arguments</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    std::vector&lt;std::string&gt; _argumentVector;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">virtual</span> uint32_t getDataSize() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// Trim input std::string</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">static</span> std::string trim(<span class="keyword">const</span> std::string&amp; strToTrim);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// Command</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    std::string _strCommand;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Arguments</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    std::vector&lt;std::string&gt; _argumentVector;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="ttc" id="classCRequestMessage_html_a302c50a54ee666be6a79f5bf780403de"><div class="ttname"><a href="classCRequestMessage.html#a302c50a54ee666be6a79f5bf780403de">CRequestMessage::getArgumentCount</a></div><div class="ttdeci">virtual uint32_t getArgumentCount() const </div><div class="ttdef"><b>Definition:</b> <a href="RequestMessage_8cpp_source.html#l00067">RequestMessage.cpp:67</a></div></div>
 <div class="ttc" id="Message_8h_html"><div class="ttname"><a href="Message_8h.html">Message.h</a></div></div>
 <div class="ttc" id="classIRemoteCommand_html"><div class="ttname"><a href="classIRemoteCommand.html">IRemoteCommand</a></div><div class="ttdef"><b>Definition:</b> <a href="RemoteCommand_8h_source.html#l00035">RemoteCommand.h:35</a></div></div>
@@ -175,7 +175,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:11 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

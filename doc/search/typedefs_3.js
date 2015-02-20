@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['matchesaggregationcriterion',['MatchesAggregationCriterion',['../classCConfigurableElementAggregator.html#a801b805757d002ff6898e9622970b412',1,'CConfigurableElementAggregator']]]
+  ['remotecommandparser',['RemoteCommandParser',['../classTRemoteCommandHandlerTemplate.html#acb39f51f4c05fb5da1d16260c36746e0',1,'TRemoteCommandHandlerTemplate']]]
 ];

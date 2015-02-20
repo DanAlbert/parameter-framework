@@ -57,7 +57,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" target="_top" xlink:title="CElement::getNbChildren">
+<g id="a_node5"><a xlink:href="classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" target="_top" xlink:title="CElement::getNbChildren">
 <polygon fill="white" stroke="black" points="335,-38.5 335,-57.5 472,-57.5 472,-38.5 335,-38.5"/>
 <text text-anchor="middle" x="403.5" y="-45.5" font-family="Verdana" font-size="10.00">CElement::getNbChildren</text>
 </a>

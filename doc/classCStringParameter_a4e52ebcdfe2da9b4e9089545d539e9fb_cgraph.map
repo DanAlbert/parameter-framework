@@ -1,4 +1,6 @@
 <map id="CStringParameter::doGetValue" name="CStringParameter::doGetValue">
-<area shape="rect" id="node2" href="$classCParameterAccessContext.html#ad354dd5bf2a88f4ed4197be9a59fda20" title="CParameterAccessContext\l::getParameterBlackboard" alt="" coords="272,5,465,47"/>
-<area shape="rect" id="node3" href="$classCParameterBlackboard.html#a7d0efe77c5d8a11f6ff418b8013c8ede" title="CParameterBlackboard\l::readString" alt="" coords="284,71,453,112"/>
+<area shape="rect" id="node2" href="$classCStringParameter.html#af2990a24d1de91c5cfd760eb8b7ecffd" title="CStringParameter::getSize" alt="" coords="273,13,465,39"/>
+<area shape="rect" id="node4" href="$classCParameterAccessContext.html#ad354dd5bf2a88f4ed4197be9a59fda20" title="CParameterAccessContext\l::getParameterBlackboard" alt="" coords="272,64,465,105"/>
+<area shape="rect" id="node5" href="$classCParameterBlackboard.html#ac3485fe47c5cf8879d7bd4d9b91c78c7" title="CParameterBlackboard\l::readString" alt="" coords="284,129,453,171"/>
+<area shape="rect" id="node3" href="$classCInstanceConfigurableElement.html#ae2d941df411f8ec4c025cbd04d3ba421" title="CInstanceConfigurableElement\l::getTypeElement" alt="" coords="513,5,732,47"/>
 </map>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classCMessage.html#ae5221bcb6b376feb894fcda7e2969b66" target="_top" xlink:title="Read raw data from the message. ">
+<g id="a_node2"><a xlink:href="classCMessage.html#aa34d72dda33c857f8b55ad562e3a22d0" target="_top" xlink:title="CMessage::readData">
 <polygon fill="white" stroke="black" points="158,-0.5 158,-19.5 275,-19.5 275,-0.5 158,-0.5"/>
 <text text-anchor="middle" x="216.5" y="-7.5" font-family="Verdana" font-size="10.00">CMessage::readData</text>
 </a>

@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -143,60 +143,57 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// Msg Id</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    uint8_t <a class="code" href="classCMessage.html#a060b5a2b0874bf080b36b9e406e4d2e1">getMsgId</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#a1c554e2ab2e8228a1dda8cb0a017122b">writeData</a>(<span class="keyword">const</span> <span class="keywordtype">void</span>* pvData, <span class="keywordtype">size_t</span> uiSize);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#ae5221bcb6b376feb894fcda7e2969b66">readData</a>(<span class="keywordtype">void</span>* pvData, <span class="keywordtype">size_t</span> uiSize);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#a6f89f94e4e8a2583ff8537a058a39b8d">writeString</a>(<span class="keyword">const</span> std::string&amp; strData);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2">readString</a>(std::string&amp; strData);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classCMessage.html#a592179b9f2a4785fb690e65cd3ee4725">getStringSize</a>(<span class="keyword">const</span> std::string&amp; strData) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classCMessage.html#a6bac136008c5aeb9a9259dca6d06624a">getRemainingDataSize</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="classCMessage.html#a9977a9eeb7bc77fe25b6cc30958be980">CMessage</a>(<span class="keyword">const</span> <a class="code" href="classCMessage.html">CMessage</a>&amp;);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="classCMessage.html">CMessage</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classCMessage.html">CMessage</a>&amp;);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">void</span> allocateData(<span class="keywordtype">size_t</span> uiDataSize);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">// Fill data to send</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> fillDataToSend() = 0;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="comment">// Collect received data</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> collectReceivedData() = 0;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> getDataSize() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="comment">// Checksum</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    uint8_t computeChecksum() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="comment">// MsgId</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    uint8_t _ucMsgId;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="comment">// Data</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    uint8_t* _pucData;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordtype">size_t</span> _uiDataSize;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">size_t</span> _uiIndex;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Data</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#aaabc1ba8fbe07c4f352af0b360f5ef24">writeData</a>(<span class="keyword">const</span> <span class="keywordtype">void</span>* pvData, uint32_t uiSize);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#aa34d72dda33c857f8b55ad562e3a22d0">readData</a>(<span class="keywordtype">void</span>* pvData, uint32_t uiSize);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#a6f89f94e4e8a2583ff8537a058a39b8d">writeString</a>(<span class="keyword">const</span> std::string&amp; strData);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2">readString</a>(std::string&amp; strData);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    uint32_t <a class="code" href="classCMessage.html#a03e8b0f26e61c5fc4540e4c89ff5ee56">getStringSize</a>(<span class="keyword">const</span> std::string&amp; strData) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Remaining data size</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    uint32_t <a class="code" href="classCMessage.html#a1071bda73bb02bbe13cd62d6cd92d522">getRemainingDataSize</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classCMessage.html#a9977a9eeb7bc77fe25b6cc30958be980">CMessage</a>(<span class="keyword">const</span> <a class="code" href="classCMessage.html">CMessage</a>&amp;);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classCMessage.html">CMessage</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classCMessage.html">CMessage</a>&amp;);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// Data allocation</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> allocateData(uint32_t uiDataSize);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// Fill data to send</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> fillDataToSend() = 0;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// Collect received data</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> collectReceivedData() = 0;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// Size</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">virtual</span> uint32_t getDataSize() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// Checksum</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    uint8_t computeChecksum() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// MsgId</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    uint8_t _ucMsgId;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// Data</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    uint8_t* _pucData;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// Data size</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    uint32_t _uiDataSize;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="comment">// Read/Write Index</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    uint32_t _uiIndex;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div>
 <div class="ttc" id="classCMessage_html_a59c2a51750de7ca915174fe779283387a9a0d54a9b3dcea09a39ed7cf44a1a8e6"><div class="ttname"><a href="classCMessage.html#a59c2a51750de7ca915174fe779283387a9a0d54a9b3dcea09a39ed7cf44a1a8e6">CMessage::success</a></div><div class="ttdef"><b>Definition:</b> <a href="Message_8h_source.html#l00045">Message.h:45</a></div></div>
-<div class="ttc" id="classCMessage_html_a6bac136008c5aeb9a9259dca6d06624a"><div class="ttname"><a href="classCMessage.html#a6bac136008c5aeb9a9259dca6d06624a">CMessage::getRemainingDataSize</a></div><div class="ttdeci">size_t getRemainingDataSize() const </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00120">Message.cpp:120</a></div></div>
 <div class="ttc" id="classCMessage_html_a59c2a51750de7ca915174fe779283387a30ea244171dbb1aed40d49cff51cd9b6"><div class="ttname"><a href="classCMessage.html#a59c2a51750de7ca915174fe779283387a30ea244171dbb1aed40d49cff51cd9b6">CMessage::error</a></div><div class="ttdef"><b>Definition:</b> <a href="Message_8h_source.html#l00047">Message.h:47</a></div></div>
 <div class="ttc" id="classCMessage_html_a060b5a2b0874bf080b36b9e406e4d2e1"><div class="ttname"><a href="classCMessage.html#a060b5a2b0874bf080b36b9e406e4d2e1">CMessage::getMsgId</a></div><div class="ttdeci">uint8_t getMsgId() const </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00054">Message.cpp:54</a></div></div>
-<div class="ttc" id="classCMessage_html_a6f89f94e4e8a2583ff8537a058a39b8d"><div class="ttname"><a href="classCMessage.html#a6f89f94e4e8a2583ff8537a058a39b8d">CMessage::writeString</a></div><div class="ttdeci">void writeString(const std::string &amp;strData)</div><div class="ttdoc">Write string to the message. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00082">Message.cpp:82</a></div></div>
+<div class="ttc" id="classCMessage_html_aaabc1ba8fbe07c4f352af0b360f5ef24"><div class="ttname"><a href="classCMessage.html#aaabc1ba8fbe07c4f352af0b360f5ef24">CMessage::writeData</a></div><div class="ttdeci">void writeData(const void *pvData, uint32_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00060">Message.cpp:60</a></div></div>
+<div class="ttc" id="classCMessage_html_a6f89f94e4e8a2583ff8537a058a39b8d"><div class="ttname"><a href="classCMessage.html#a6f89f94e4e8a2583ff8537a058a39b8d">CMessage::writeString</a></div><div class="ttdeci">void writeString(const std::string &amp;strData)</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00082">Message.cpp:82</a></div></div>
 <div class="ttc" id="classCMessage_html_a59c2a51750de7ca915174fe779283387aa82c3dcee56be59d62b4549c217f5cc0"><div class="ttname"><a href="classCMessage.html#a59c2a51750de7ca915174fe779283387aa82c3dcee56be59d62b4549c217f5cc0">CMessage::peerDisconnected</a></div><div class="ttdef"><b>Definition:</b> <a href="Message_8h_source.html#l00046">Message.h:46</a></div></div>
 <div class="ttc" id="classCSocket_html"><div class="ttname"><a href="classCSocket.html">CSocket</a></div><div class="ttdoc">Readable and writable socket. </div><div class="ttdef"><b>Definition:</b> <a href="Socket_8h_source.html#l00046">Socket.h:46</a></div></div>
 <div class="ttc" id="classCMessage_html_a4d030bfa3672c2ab25f97e6ffde2aa6f"><div class="ttname"><a href="classCMessage.html#a4d030bfa3672c2ab25f97e6ffde2aa6f">CMessage::~CMessage</a></div><div class="ttdeci">virtual ~CMessage()</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00048">Message.cpp:48</a></div></div>
-<div class="ttc" id="classCMessage_html_aa01efca25f3bf723c4b1bc8859b061c2"><div class="ttname"><a href="classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2">CMessage::readString</a></div><div class="ttdeci">void readString(std::string &amp;strData)</div><div class="ttdoc">Write string to the message. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00093">Message.cpp:93</a></div></div>
-<div class="ttc" id="classCMessage_html_a934d70aff67a456a92124664d6e78e84"><div class="ttname"><a href="classCMessage.html#a934d70aff67a456a92124664d6e78e84">CMessage::serialize</a></div><div class="ttdeci">Result serialize(CSocket *pSocket, bool bOut, std::string &amp;strError)</div><div class="ttdoc">Write or read the message on pSocket. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00126">Message.cpp:126</a></div></div>
-<div class="ttc" id="classCMessage_html_a592179b9f2a4785fb690e65cd3ee4725"><div class="ttname"><a href="classCMessage.html#a592179b9f2a4785fb690e65cd3ee4725">CMessage::getStringSize</a></div><div class="ttdeci">size_t getStringSize(const std::string &amp;strData) const </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00113">Message.cpp:113</a></div></div>
+<div class="ttc" id="classCMessage_html_aa01efca25f3bf723c4b1bc8859b061c2"><div class="ttname"><a href="classCMessage.html#aa01efca25f3bf723c4b1bc8859b061c2">CMessage::readString</a></div><div class="ttdeci">void readString(std::string &amp;strData)</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00093">Message.cpp:93</a></div></div>
+<div class="ttc" id="classCMessage_html_a934d70aff67a456a92124664d6e78e84"><div class="ttname"><a href="classCMessage.html#a934d70aff67a456a92124664d6e78e84">CMessage::serialize</a></div><div class="ttdeci">Result serialize(CSocket *pSocket, bool bOut, std::string &amp;strError)</div><div class="ttdoc">Write or read the message on pSocket. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00129">Message.cpp:129</a></div></div>
 <div class="ttc" id="classCMessage_html_a59c2a51750de7ca915174fe779283387"><div class="ttname"><a href="classCMessage.html#a59c2a51750de7ca915174fe779283387">CMessage::Result</a></div><div class="ttdeci">Result</div><div class="ttdef"><b>Definition:</b> <a href="Message_8h_source.html#l00044">Message.h:44</a></div></div>
 <div class="ttc" id="classCMessage_html_a9977a9eeb7bc77fe25b6cc30958be980"><div class="ttname"><a href="classCMessage.html#a9977a9eeb7bc77fe25b6cc30958be980">CMessage::CMessage</a></div><div class="ttdeci">CMessage()</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00044">Message.cpp:44</a></div></div>
-<div class="ttc" id="classCMessage_html_ae5221bcb6b376feb894fcda7e2969b66"><div class="ttname"><a href="classCMessage.html#ae5221bcb6b376feb894fcda7e2969b66">CMessage::readData</a></div><div class="ttdeci">void readData(void *pvData, size_t uiSize)</div><div class="ttdoc">Read raw data from the message. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00071">Message.cpp:71</a></div></div>
-<div class="ttc" id="classCMessage_html_a1c554e2ab2e8228a1dda8cb0a017122b"><div class="ttname"><a href="classCMessage.html#a1c554e2ab2e8228a1dda8cb0a017122b">CMessage::writeData</a></div><div class="ttdeci">void writeData(const void *pvData, size_t uiSize)</div><div class="ttdoc">Write raw data to the message. </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00060">Message.cpp:60</a></div></div>
+<div class="ttc" id="classCMessage_html_a03e8b0f26e61c5fc4540e4c89ff5ee56"><div class="ttname"><a href="classCMessage.html#a03e8b0f26e61c5fc4540e4c89ff5ee56">CMessage::getStringSize</a></div><div class="ttdeci">uint32_t getStringSize(const std::string &amp;strData) const </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00116">Message.cpp:116</a></div></div>
+<div class="ttc" id="classCMessage_html_a1071bda73bb02bbe13cd62d6cd92d522"><div class="ttname"><a href="classCMessage.html#a1071bda73bb02bbe13cd62d6cd92d522">CMessage::getRemainingDataSize</a></div><div class="ttdeci">uint32_t getRemainingDataSize() const </div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00123">Message.cpp:123</a></div></div>
+<div class="ttc" id="classCMessage_html_aa34d72dda33c857f8b55ad562e3a22d0"><div class="ttname"><a href="classCMessage.html#aa34d72dda33c857f8b55ad562e3a22d0">CMessage::readData</a></div><div class="ttdeci">void readData(void *pvData, uint32_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="Message_8cpp_source.html#l00071">Message.cpp:71</a></div></div>
 <div class="ttc" id="classCMessage_html"><div class="ttname"><a href="classCMessage.html">CMessage</a></div><div class="ttdef"><b>Definition:</b> <a href="Message_8h_source.html#l00037">Message.h:37</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:11 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -182,7 +182,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" target="_top" xlink:title="CElement::getNbChildren">
+<g id="a_node13"><a xlink:href="classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" target="_top" xlink:title="CElement::getNbChildren">
 <polygon fill="white" stroke="black" points="668,-144.5 668,-163.5 805,-163.5 805,-144.5 668,-144.5"/>
 <text text-anchor="middle" x="736.5" y="-151.5" font-family="Verdana" font-size="10.00">CElement::getNbChildren</text>
 </a>
@@ -195,7 +195,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" target="_top" xlink:title="Get a child element (const) ">
+<g id="a_node14"><a xlink:href="classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" target="_top" xlink:title="CElement::getChild">
 <polygon fill="white" stroke="black" points="682.5,-56.5 682.5,-75.5 790.5,-75.5 790.5,-56.5 682.5,-56.5"/>
 <text text-anchor="middle" x="736.5" y="-63.5" font-family="Verdana" font-size="10.00">CElement::getChild</text>
 </a>

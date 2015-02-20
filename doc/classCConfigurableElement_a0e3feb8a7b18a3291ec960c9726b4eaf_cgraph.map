@@ -1,7 +1,7 @@
 <map id="CConfigurableElement::serializeXmlSettings" name="CConfigurableElement::serializeXmlSettings">
-<area shape="rect" id="node2" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="231,5,414,32"/>
+<area shape="rect" id="node2" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="231,5,414,32"/>
 <area shape="rect" id="node3" href="$classCConfigurationAccessContext.html#ac0a975afc840488e5e82345441de56cc" title="CConfigurationAccessContext\l::serializeOut" alt="" coords="217,57,428,98"/>
-<area shape="rect" id="node4" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="251,123,395,149"/>
+<area shape="rect" id="node4" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="251,123,395,149"/>
 <area shape="rect" id="node5" href="$classCErrorContext.html#a9d58b281c0d0fc9a6d3b83714cf812ef" title="CErrorContext::setError" alt="" coords="237,173,408,200"/>
 <area shape="rect" id="node6" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="247,224,399,251"/>
 <area shape="rect" id="node7" href="$classCElement.html#aed2ca7f2a56dbf2edcd82167859535ee" title="CElement::getKind" alt="" coords="253,275,393,301"/>

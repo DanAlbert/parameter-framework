@@ -49,7 +49,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCBinaryStream.html#af629f3fadf931d1c104bc23838f5c7f0" target="_top" xlink:title="CBinaryStream::write">
+<g id="a_node4"><a xlink:href="classCBinaryStream.html#aae22e30790460521f9967d2a480d9ee8" target="_top" xlink:title="CBinaryStream::write">
 <polygon fill="white" stroke="black" points="310,-38.5 310,-57.5 428,-57.5 428,-38.5 310,-38.5"/>
 <text text-anchor="middle" x="369" y="-45.5" font-family="Verdana" font-size="10.00">CBinaryStream::write</text>
 </a>
@@ -62,7 +62,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCBinaryStream.html#a82ce448e447ad3801b55d8cf4c00f61f" target="_top" xlink:title="CBinaryStream::read">
+<g id="a_node5"><a xlink:href="classCBinaryStream.html#a3dbd7c97a6564a16f8097a863f068f59" target="_top" xlink:title="CBinaryStream::read">
 <polygon fill="white" stroke="black" points="310.5,-0.5 310.5,-19.5 427.5,-19.5 427.5,-0.5 310.5,-0.5"/>
 <text text-anchor="middle" x="369" y="-7.5" font-family="Verdana" font-size="10.00">CBinaryStream::read</text>
 </a>

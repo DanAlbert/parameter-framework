@@ -14,7 +14,7 @@
 <area shape="rect" id="node13" href="$classCTypeElement.html#aa8d910c6cf51c03d03f183a6a81a8372" title="CTypeElement::getMappingData" alt="" coords="485,355,712,382"/>
 <area shape="rect" id="node14" href="$classCMappingData.html#a7a2d5172201c72ab434175fadc1f3053" title="CMappingData::getValue" alt="" coords="764,375,944,402"/>
 <area shape="rect" id="node16" href="$classCTypeElement.html#a7cdfd91a35b67d17fb2c92f8a2883854" title="CTypeElement::populate" alt="" coords="511,242,687,269"/>
-<area shape="rect" id="node17" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="763,223,945,250"/>
-<area shape="rect" id="node18" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="782,274,926,301"/>
+<area shape="rect" id="node17" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="763,223,945,250"/>
+<area shape="rect" id="node18" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="782,274,926,301"/>
 <area shape="rect" id="node19" href="$classCTypeElement.html#a0fd0b5dfb3e3515ff5b54eda3d7e0a45" title="CTypeElement::instantiate" alt="" coords="760,325,948,351"/>
 </map>

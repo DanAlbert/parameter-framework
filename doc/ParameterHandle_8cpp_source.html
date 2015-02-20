@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -527,7 +527,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;<span class="keywordtype">bool</span> CParameterHandle::setAsStringArray(<span class="keyword">const</span> std::vector&lt;string&gt;&amp; astrValues, <span class="keywordtype">string</span>&amp; strError)</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;{</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    <span class="comment">// Check operation validity</span></div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span> (!checkAccessValidity(<span class="keyword">true</span>, (uint32_t)astrValues.size(), strError)) {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span> (!checkAccessValidity(<span class="keyword">true</span>, astrValues.size(), strError)) {</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    }</div>
@@ -566,7 +566,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;}</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;<span class="comment">// Access validity</span></div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;<span class="keywordtype">bool</span> CParameterHandle::checkAccessValidity(<span class="keywordtype">bool</span> bSet, <span class="keywordtype">size_t</span> uiArrayLength, <span class="keywordtype">string</span>&amp; strError)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;<span class="keywordtype">bool</span> CParameterHandle::checkAccessValidity(<span class="keywordtype">bool</span> bSet, uint32_t uiArrayLength, <span class="keywordtype">string</span>&amp; strError)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <span class="keywordflow">if</span> (bSet &amp;&amp; !isRogue()) {</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
@@ -613,12 +613,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCBaseParameter_html"><div class="ttname"><a href="classCBaseParameter.html">CBaseParameter</a></div><div class="ttdef"><b>Definition:</b> <a href="BaseParameter_8h_source.html#l00040">BaseParameter.h:40</a></div></div>
 <div class="ttc" id="ParameterMgr_8h_html"><div class="ttname"><a href="ParameterMgr_8h.html">ParameterMgr.h</a></div></div>
 <div class="ttc" id="Subsystem_8h_html"><div class="ttname"><a href="Subsystem_8h.html">Subsystem.h</a></div></div>
-<div class="ttc" id="classCParameterMgr_html"><div class="ttname"><a href="classCParameterMgr.html">CParameterMgr</a></div><div class="ttdef"><b>Definition:</b> <a href="ParameterMgr_8h_source.html#l00060">ParameterMgr.h:60</a></div></div>
+<div class="ttc" id="classCParameterMgr_html"><div class="ttname"><a href="classCParameterMgr.html">CParameterMgr</a></div><div class="ttdef"><b>Definition:</b> <a href="ParameterMgr_8h_source.html#l00061">ParameterMgr.h:61</a></div></div>
 <div class="ttc" id="AutoLock_8h_html"><div class="ttname"><a href="AutoLock_8h.html">AutoLock.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -127,7 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classCBinaryStream.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCBinaryStream.html">CBinaryStream</a></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classCBinaryStream.html#a2fe11e4a3bb00162d858cc42459d3d4c">CBinaryStream</a>(<span class="keyword">const</span> std::string&amp; strFileName, <span class="keywordtype">bool</span> bOut, <span class="keywordtype">size_t</span> uiDataSize, uint8_t uiStructureChecksum);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classCBinaryStream.html#ab3826625d68b0177693509350046cc10">CBinaryStream</a>(<span class="keyword">const</span> std::string&amp; strFileName, <span class="keywordtype">bool</span> bOut, uint32_t uiDataSize, uint8_t uiStructureChecksum);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classCBinaryStream.html#abb6447a8d92ee910d7ed064a29bdb06d">~CBinaryStream</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// Open close</span></div>
@@ -138,13 +138,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCBinaryStream.html#a0468cf01ba51b81f63c122c9276cad10">reset</a>();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// Read/Write</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCBinaryStream.html#af629f3fadf931d1c104bc23838f5c7f0">write</a>(<span class="keyword">const</span> uint8_t* puiData, <span class="keywordtype">size_t</span> uiSize);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCBinaryStream.html#a82ce448e447ad3801b55d8cf4c00f61f">read</a>(uint8_t* puiData, <span class="keywordtype">size_t</span> uiSize);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCBinaryStream.html#aae22e30790460521f9967d2a480d9ee8">write</a>(<span class="keyword">const</span> uint8_t* puiData, uint32_t uiSize);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCBinaryStream.html#a3dbd7c97a6564a16f8097a863f068f59">read</a>(uint8_t* puiData, uint32_t uiSize);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// Direction</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classCBinaryStream.html#a362955618d8b9cbb753d59ea9e85a124">isOut</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="classCBinaryStream.html#a2fe11e4a3bb00162d858cc42459d3d4c">CBinaryStream</a>(<span class="keyword">const</span> <a class="code" href="classCBinaryStream.html">CBinaryStream</a>&amp;);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="classCBinaryStream.html#ab3826625d68b0177693509350046cc10">CBinaryStream</a>(<span class="keyword">const</span> <a class="code" href="classCBinaryStream.html">CBinaryStream</a>&amp;);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classCBinaryStream.html">CBinaryStream</a>&amp; operator=(<span class="keyword">const</span> <a class="code" href="classCBinaryStream.html">CBinaryStream</a>&amp;);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// Checksum</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    uint8_t computeChecksum() <span class="keyword">const</span>;</div>
@@ -154,7 +154,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// Serialization direction</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">bool</span> _bOut;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// Data size</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">size_t</span> _uiDataSize;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    uint32_t _uiDataSize;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// System structure checksum</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    uint8_t _uiStructureChecksum;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// Read/Write data</span></div>
@@ -162,24 +162,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// File</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    std::fstream _fileStream;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Ops in faile</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">size_t</span> _uiPos;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    uint32_t _uiPos;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// File state</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">bool</span> _bOpen;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="ttc" id="classCBinaryStream_html_abb6447a8d92ee910d7ed064a29bdb06d"><div class="ttname"><a href="classCBinaryStream.html#abb6447a8d92ee910d7ed064a29bdb06d">CBinaryStream::~CBinaryStream</a></div><div class="ttdeci">~CBinaryStream()</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00047">BinaryStream.cpp:47</a></div></div>
 <div class="ttc" id="classCBinaryStream_html"><div class="ttname"><a href="classCBinaryStream.html">CBinaryStream</a></div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8h_source.html#l00036">BinaryStream.h:36</a></div></div>
-<div class="ttc" id="classCBinaryStream_html_a82ce448e447ad3801b55d8cf4c00f61f"><div class="ttname"><a href="classCBinaryStream.html#a82ce448e447ad3801b55d8cf4c00f61f">CBinaryStream::read</a></div><div class="ttdeci">void read(uint8_t *puiData, size_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00148">BinaryStream.cpp:148</a></div></div>
 <div class="ttc" id="classCBinaryStream_html_aee075f204ff985610b57848cebe30a47"><div class="ttname"><a href="classCBinaryStream.html#aee075f204ff985610b57848cebe30a47">CBinaryStream::open</a></div><div class="ttdeci">bool open(std::string &amp;strError)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00057">BinaryStream.cpp:57</a></div></div>
 <div class="ttc" id="classCBinaryStream_html_a0468cf01ba51b81f63c122c9276cad10"><div class="ttname"><a href="classCBinaryStream.html#a0468cf01ba51b81f63c122c9276cad10">CBinaryStream::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00134">BinaryStream.cpp:134</a></div></div>
-<div class="ttc" id="classCBinaryStream_html_af629f3fadf931d1c104bc23838f5c7f0"><div class="ttname"><a href="classCBinaryStream.html#af629f3fadf931d1c104bc23838f5c7f0">CBinaryStream::write</a></div><div class="ttdeci">void write(const uint8_t *puiData, size_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00139">BinaryStream.cpp:139</a></div></div>
+<div class="ttc" id="classCBinaryStream_html_aae22e30790460521f9967d2a480d9ee8"><div class="ttname"><a href="classCBinaryStream.html#aae22e30790460521f9967d2a480d9ee8">CBinaryStream::write</a></div><div class="ttdeci">void write(const uint8_t *puiData, uint32_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00139">BinaryStream.cpp:139</a></div></div>
 <div class="ttc" id="classCBinaryStream_html_a362955618d8b9cbb753d59ea9e85a124"><div class="ttname"><a href="classCBinaryStream.html#a362955618d8b9cbb753d59ea9e85a124">CBinaryStream::isOut</a></div><div class="ttdeci">bool isOut() const </div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00169">BinaryStream.cpp:169</a></div></div>
-<div class="ttc" id="classCBinaryStream_html_a2fe11e4a3bb00162d858cc42459d3d4c"><div class="ttname"><a href="classCBinaryStream.html#a2fe11e4a3bb00162d858cc42459d3d4c">CBinaryStream::CBinaryStream</a></div><div class="ttdeci">CBinaryStream(const std::string &amp;strFileName, bool bOut, size_t uiDataSize, uint8_t uiStructureChecksum)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00036">BinaryStream.cpp:36</a></div></div>
+<div class="ttc" id="classCBinaryStream_html_ab3826625d68b0177693509350046cc10"><div class="ttname"><a href="classCBinaryStream.html#ab3826625d68b0177693509350046cc10">CBinaryStream::CBinaryStream</a></div><div class="ttdeci">CBinaryStream(const std::string &amp;strFileName, bool bOut, uint32_t uiDataSize, uint8_t uiStructureChecksum)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00036">BinaryStream.cpp:36</a></div></div>
 <div class="ttc" id="classCBinaryStream_html_aafcf30671f90cecb81901ba557a288a5"><div class="ttname"><a href="classCBinaryStream.html#aafcf30671f90cecb81901ba557a288a5">CBinaryStream::close</a></div><div class="ttdeci">void close()</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00111">BinaryStream.cpp:111</a></div></div>
+<div class="ttc" id="classCBinaryStream_html_a3dbd7c97a6564a16f8097a863f068f59"><div class="ttname"><a href="classCBinaryStream.html#a3dbd7c97a6564a16f8097a863f068f59">CBinaryStream::read</a></div><div class="ttdeci">void read(uint8_t *puiData, uint32_t uiSize)</div><div class="ttdef"><b>Definition:</b> <a href="BinaryStream_8cpp_source.html#l00148">BinaryStream.cpp:148</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

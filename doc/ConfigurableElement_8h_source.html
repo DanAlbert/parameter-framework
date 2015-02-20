@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -165,7 +165,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// Owning domains</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCConfigurableElement.html#a65f23dd6b625297444db48caff8c0e05">listAssociatedDomains</a>(std::string&amp; strResult, <span class="keywordtype">bool</span> bVertical = <span class="keyword">true</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classCConfigurableElement.html#aef6b3524cacbbfdf7829b9126c8a8307">getBelongingDomainCount</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    uint32_t <a class="code" href="classCConfigurableElement.html#a190da648c4251f7fb63f43b5dd766437">getBelongingDomainCount</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// Elements with no domains</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCConfigurableElement.html#a1b28dbdb4a01edd94c1ae8b5e42d76b2">listRogueElements</a>(std::string&amp; strResult) <span class="keyword">const</span>;</div>
@@ -235,6 +235,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCConfigurableDomain_html"><div class="ttname"><a href="classCConfigurableDomain.html">CConfigurableDomain</a></div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableDomain_8h_source.html#l00046">ConfigurableDomain.h:46</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a711b8af1b9aac12e57244f2edbe916e9"><div class="ttname"><a href="classCConfigurableElement.html#a711b8af1b9aac12e57244f2edbe916e9">CConfigurableElement::hasNoValidDomainAssociated</a></div><div class="ttdeci">bool hasNoValidDomainAssociated() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00373">ConfigurableElement.cpp:373</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a227e3ad5b43843c0171bdd80ab9ec048"><div class="ttname"><a href="classCConfigurableElement.html#a227e3ad5b43843c0171bdd80ab9ec048">CConfigurableElement::CConfigurableElement</a></div><div class="ttdeci">CConfigurableElement(const std::string &amp;strName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00041">ConfigurableElement.cpp:41</a></div></div>
+<div class="ttc" id="classCConfigurableElement_html_a190da648c4251f7fb63f43b5dd766437"><div class="ttname"><a href="classCConfigurableElement.html#a190da648c4251f7fb63f43b5dd766437">CConfigurableElement::getBelongingDomainCount</a></div><div class="ttdeci">uint32_t getBelongingDomainCount() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00404">ConfigurableElement.cpp:404</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a1376855eba031b3cbb715389e23b20fe"><div class="ttname"><a href="classCConfigurableElement.html#a1376855eba031b3cbb715389e23b20fe">CConfigurableElement::isParameter</a></div><div class="ttdeci">virtual bool isParameter() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00490">ConfigurableElement.cpp:490</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a450b0ccf5de682eb39949fa43438a7f5"><div class="ttname"><a href="classCConfigurableElement.html#a450b0ccf5de682eb39949fa43438a7f5">CConfigurableElement::setOffset</a></div><div class="ttdeci">void setOffset(uint32_t uiOffset)</div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00197">ConfigurableElement.cpp:197</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a1e30831c0d3ce07df6d0f6730ba04654"><div class="ttname"><a href="classCConfigurableElement.html#a1e30831c0d3ce07df6d0f6730ba04654">CConfigurableElement::getBelongingSubsystem</a></div><div class="ttdeci">virtual const CSubsystem * getBelongingSubsystem() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00476">ConfigurableElement.cpp:476</a></div></div>
@@ -261,7 +262,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCConfigurableElement_html_a6bc3e14e1da435b74e38ea3e95a31e62"><div class="ttname"><a href="classCConfigurableElement.html#a6bc3e14e1da435b74e38ea3e95a31e62">CConfigurableElement::getFootPrint</a></div><div class="ttdeci">virtual uint32_t getFootPrint() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00222">ConfigurableElement.cpp:222</a></div></div>
 <div class="ttc" id="classCSyncerSet_html"><div class="ttname"><a href="classCSyncerSet.html">CSyncerSet</a></div><div class="ttdef"><b>Definition:</b> <a href="SyncerSet_8h_source.html#l00039">SyncerSet.h:39</a></div></div>
 <div class="ttc" id="Element_8h_html"><div class="ttname"><a href="Element_8h.html">Element.h</a></div></div>
-<div class="ttc" id="classCConfigurableElement_html_aef6b3524cacbbfdf7829b9126c8a8307"><div class="ttname"><a href="classCConfigurableElement.html#aef6b3524cacbbfdf7829b9126c8a8307">CConfigurableElement::getBelongingDomainCount</a></div><div class="ttdeci">size_t getBelongingDomainCount() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00404">ConfigurableElement.cpp:404</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a0e3feb8a7b18a3291ec960c9726b4eaf"><div class="ttname"><a href="classCConfigurableElement.html#a0e3feb8a7b18a3291ec960c9726b4eaf">CConfigurableElement::serializeXmlSettings</a></div><div class="ttdeci">virtual bool serializeXmlSettings(CXmlElement &amp;xmlConfigurationSettingsElementContent, CConfigurationAccessContext &amp;configurationAccessContext) const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00050">ConfigurableElement.cpp:50</a></div></div>
 <div class="ttc" id="classISyncer_html"><div class="ttname"><a href="classISyncer.html">ISyncer</a></div><div class="ttdef"><b>Definition:</b> <a href="Syncer_8h_source.html#l00036">Syncer.h:36</a></div></div>
 <div class="ttc" id="classCConfigurableElement_html_a08cbc876b52d1e58ade956a8191b1ee3"><div class="ttname"><a href="classCConfigurableElement.html#a08cbc876b52d1e58ade956a8191b1ee3">CConfigurableElement::hasNoDomainAssociated</a></div><div class="ttdeci">bool hasNoDomainAssociated() const </div><div class="ttdef"><b>Definition:</b> <a href="ConfigurableElement_8cpp_source.html#l00367">ConfigurableElement.cpp:367</a></div></div>
@@ -270,7 +270,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

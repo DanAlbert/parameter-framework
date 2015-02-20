@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -125,7 +125,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">using</span> std::string;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classCMappingContext.html#a8249ea248e80191930f33cc75dce6296">   37</a></span>&#160;<a class="code" href="classCMappingContext.html#a8249ea248e80191930f33cc75dce6296">CMappingContext::CMappingContext</a>(<span class="keywordtype">size_t</span> uiNbItemTypes) : _pstItemArray(new <a class="code" href="classCMappingContext.html">CMappingContext</a>::SItem[uiNbItemTypes]), _uiNbItemTypes(uiNbItemTypes)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classCMappingContext.html#aa9f6e568431333a9e8d8800c1b88ae60">   37</a></span>&#160;<a class="code" href="classCMappingContext.html#aa9f6e568431333a9e8d8800c1b88ae60">CMappingContext::CMappingContext</a>(uint32_t uiNbItemTypes) : _pstItemArray(new <a class="code" href="classCMappingContext.html">CMappingContext</a>::SItem[uiNbItemTypes]), _uiNbItemTypes(uiNbItemTypes)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// Clear items</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    memset(_pstItemArray, 0, <span class="keyword">sizeof</span>(*_pstItemArray) * uiNbItemTypes);</div>
@@ -137,7 +137,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// Copy constructor</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classCMappingContext.html#a6621052fdd1a524786568733e15a1121">   49</a></span>&#160;<a class="code" href="classCMappingContext.html#a8249ea248e80191930f33cc75dce6296">CMappingContext::CMappingContext</a>(<span class="keyword">const</span> <a class="code" href="classCMappingContext.html">CMappingContext</a>&amp; from) : _pstItemArray(new <a class="code" href="classCMappingContext.html">CMappingContext</a>::SItem[from._uiNbItemTypes]), _uiNbItemTypes(from._uiNbItemTypes)</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classCMappingContext.html#a6621052fdd1a524786568733e15a1121">   49</a></span>&#160;<a class="code" href="classCMappingContext.html#aa9f6e568431333a9e8d8800c1b88ae60">CMappingContext::CMappingContext</a>(<span class="keyword">const</span> <a class="code" href="classCMappingContext.html">CMappingContext</a>&amp; from) : _pstItemArray(new <a class="code" href="classCMappingContext.html">CMappingContext</a>::SItem[from._uiNbItemTypes]), _uiNbItemTypes(from._uiNbItemTypes)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// Copy content items</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    memcpy(_pstItemArray, from._pstItemArray, <span class="keyword">sizeof</span>(*_pstItemArray) * _uiNbItemTypes);</div>
@@ -167,7 +167,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// Item access</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classCMappingContext.html#a54cdfc65d61b44b2f939206194f9ce11">   77</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classCMappingContext.html#a54cdfc65d61b44b2f939206194f9ce11">CMappingContext::setItem</a>(uint32_t uiItemType, <span class="keyword">const</span> <span class="keywordtype">string</span>* pStrKey, <span class="keyword">const</span> <span class="keywordtype">string</span>* pStrItem)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">size_t</span> uiIndex;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    uint32_t uiIndex;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// Do some checks</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">for</span> (uiIndex = 0; uiIndex &lt; _uiNbItemTypes; uiIndex++) {</div>
@@ -211,7 +211,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
 <div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="classCMappingContext.html#a3788d055f942c010760d5ac6d401e2ba">  121</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">string</span>* <a class="code" href="classCMappingContext.html#a5d96a49c33e1b44fec844b8bba8b57ec">CMappingContext::getItem</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; strKey)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">size_t</span> uiItemType;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    uint32_t uiItemType;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">for</span> (uiItemType = 0; uiItemType &lt; _uiNbItemTypes; uiItemType++) {</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
@@ -233,7 +233,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classCMappingContext_html_a54cdfc65d61b44b2f939206194f9ce11"><div class="ttname"><a href="classCMappingContext.html#a54cdfc65d61b44b2f939206194f9ce11">CMappingContext::setItem</a></div><div class="ttdeci">bool setItem(uint32_t uiItemType, const std::string *pStrKey, const std::string *pStrItem)</div><div class="ttdoc">Set context mapping item key and value. </div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00077">MappingContext.cpp:77</a></div></div>
 <div class="ttc" id="classCMappingContext_html"><div class="ttname"><a href="classCMappingContext.html">CMappingContext</a></div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8h_source.html#l00035">MappingContext.h:35</a></div></div>
 <div class="ttc" id="classCMappingContext_html_a2a8e5a46c4b6b0627a9c469cf8dc836a"><div class="ttname"><a href="classCMappingContext.html#a2a8e5a46c4b6b0627a9c469cf8dc836a">CMappingContext::~CMappingContext</a></div><div class="ttdeci">~CMappingContext()</div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00043">MappingContext.cpp:43</a></div></div>
-<div class="ttc" id="classCMappingContext_html_a8249ea248e80191930f33cc75dce6296"><div class="ttname"><a href="classCMappingContext.html#a8249ea248e80191930f33cc75dce6296">CMappingContext::CMappingContext</a></div><div class="ttdeci">CMappingContext(size_t uiNbItemTypes)</div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00037">MappingContext.cpp:37</a></div></div>
+<div class="ttc" id="classCMappingContext_html_aa9f6e568431333a9e8d8800c1b88ae60"><div class="ttname"><a href="classCMappingContext.html#aa9f6e568431333a9e8d8800c1b88ae60">CMappingContext::CMappingContext</a></div><div class="ttdeci">CMappingContext(uint32_t uiNbItemTypes)</div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00037">MappingContext.cpp:37</a></div></div>
 <div class="ttc" id="MappingContext_8h_html"><div class="ttname"><a href="MappingContext_8h.html">MappingContext.h</a></div></div>
 <div class="ttc" id="classCMappingContext_html_a25f6e5e05c140141a57682e39a9df8fe"><div class="ttname"><a href="classCMappingContext.html#a25f6e5e05c140141a57682e39a9df8fe">CMappingContext::getItemAsInteger</a></div><div class="ttdeci">uint32_t getItemAsInteger(uint32_t uiItemType) const </div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00111">MappingContext.cpp:111</a></div></div>
 <div class="ttc" id="classCMappingContext_html_a5d96a49c33e1b44fec844b8bba8b57ec"><div class="ttname"><a href="classCMappingContext.html#a5d96a49c33e1b44fec844b8bba8b57ec">CMappingContext::getItem</a></div><div class="ttdeci">const std::string &amp; getItem(uint32_t uiItemType) const </div><div class="ttdef"><b>Definition:</b> <a href="MappingContext_8cpp_source.html#l00106">MappingContext.cpp:106</a></div></div>
@@ -241,7 +241,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:10 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:14 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

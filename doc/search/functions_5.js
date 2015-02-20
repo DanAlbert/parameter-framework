@@ -2,6 +2,7 @@ var searchData=
 [
   ['fillsyncerset',['fillSyncerSet',['../classCConfigurableElement.html#a0b3d6d2477e5ea7c23905604fabdb7bf',1,'CConfigurableElement']]],
   ['fillsyncersetfromdescendant',['fillSyncerSetFromDescendant',['../classCConfigurableElement.html#a9f29ba1f8a319c22896deda2cf826e78',1,'CConfigurableElement::fillSyncerSetFromDescendant()'],['../classCInstanceConfigurableElement.html#a520a72feb5e4069adac8ca2b2d4a3292',1,'CInstanceConfigurableElement::fillSyncerSetFromDescendant()']]],
+  ['findascendantofkind',['findAscendantOfKind',['../classCElement.html#a3ff0037c4b4a11d37cf53d7a818e4f81',1,'CElement']]],
   ['findchild',['findChild',['../classCElement.html#a8595814a3159f32f874269907e70b260',1,'CElement::findChild(const std::string &amp;strName) const '],['../classCElement.html#af51bbf231ec74ff4d4b7fac9588be603',1,'CElement::findChild(const std::string &amp;strName)']]],
   ['findchildofkind',['findChildOfKind',['../classCElement.html#acee1af3e8516a211731a59b85727c6b9',1,'CElement::findChildOfKind(const std::string &amp;strKind)'],['../classCElement.html#a101c372da4b36fee4ee86a8c100a566f',1,'CElement::findChildOfKind(const std::string &amp;strKind) const ']]],
   ['findconfigurabledomain',['findConfigurableDomain',['../classCConfigurableDomains.html#a4dce38a1560b6e33871d3fa2d85cc449',1,'CConfigurableDomains']]],

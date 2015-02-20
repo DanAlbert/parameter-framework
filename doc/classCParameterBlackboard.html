@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">parameter-framework
-   &#160;<span id="projectnumber">v2.4.1</span>
+   &#160;<span id="projectnumber">v2.4.3</span>
    </div>
    <div id="projectbrief">Plugin-based and rule-based framework for describing and controlling parameters</div>
   </td>
@@ -107,10 +107,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acebc8035bb3e73be7ece4fcb5169b474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d9a3d649fccda93ede444ed12d8791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#ab9d9a3d649fccda93ede444ed12d8791">readInteger</a> (void *pvDstData, uint32_t uiSize, uint32_t uiOffset, bool bBigEndian) const </td></tr>
 <tr class="separator:ab9d9a3d649fccda93ede444ed12d8791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ccc33426ac800565cb6b5b11bbf32ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#a7ccc33426ac800565cb6b5b11bbf32ce">writeString</a> (const std::string &amp;input, uint32_t uiOffset)</td></tr>
-<tr class="separator:a7ccc33426ac800565cb6b5b11bbf32ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d0efe77c5d8a11f6ff418b8013c8ede"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#a7d0efe77c5d8a11f6ff418b8013c8ede">readString</a> (std::string &amp;output, uint32_t uiOffset) const </td></tr>
-<tr class="separator:a7d0efe77c5d8a11f6ff418b8013c8ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3fc6d721104f252219e1d4e99bd5b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#a8b3fc6d721104f252219e1d4e99bd5b2">writeString</a> (const char *pcSrcData, uint32_t uiOffset)</td></tr>
+<tr class="separator:a8b3fc6d721104f252219e1d4e99bd5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3485fe47c5cf8879d7bd4d9b91c78c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#ac3485fe47c5cf8879d7bd4d9b91c78c7">readString</a> (char *pcDstData, uint32_t uiOffset) const </td></tr>
+<tr class="separator:ac3485fe47c5cf8879d7bd4d9b91c78c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1b98fae8921c4a296d7af0faad3e0df"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#ac1b98fae8921c4a296d7af0faad3e0df">getLocation</a> (uint32_t uiOffset)</td></tr>
 <tr class="separator:ac1b98fae8921c4a296d7af0faad3e0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a2b3fd050432c1e050347222544915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterBlackboard.html#ad6a2b3fd050432c1e050347222544915">restoreFrom</a> (const <a class="el" href="classCParameterBlackboard.html">CParameterBlackboard</a> *pFromBlackboard, uint32_t uiOffset)</td></tr>
@@ -122,7 +122,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="ParameterBlackboard_8h_source.html#l00036">36</a> of file <a class="el" href="ParameterBlackboard_8h_source.html">ParameterBlackboard.h</a>.</p>
+<p>Definition at line <a class="el" href="ParameterBlackboard_8h_source.html#l00035">35</a> of file <a class="el" href="ParameterBlackboard_8h_source.html">ParameterBlackboard.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3ed6eacd670df5642a477d82c7053aeb"></a>
 <div class="memitem">
@@ -242,15 +242,15 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a7d0efe77c5d8a11f6ff418b8013c8ede"></a>
+<a class="anchor" id="ac3485fe47c5cf8879d7bd4d9b91c78c7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void CParameterBlackboard::readString </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>output</em>, </td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>pcDstData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -271,7 +271,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_a7d0efe77c5d8a11f6ff418b8013c8ede_icgraph.svg" width="447" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ac3485fe47c5cf8879d7bd4d9b91c78c7_icgraph.svg" width="447" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -307,8 +307,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ad6a2b3fd050432c1e050347222544915_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ad6a2b3fd050432c1e050347222544915_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -369,8 +368,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ad96ba821eb1035b06a5a30ef7377da39_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ad96ba821eb1035b06a5a30ef7377da39_icgraph.svg" width="590" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -395,8 +393,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ac03b75ea7a07a5f8d1fcdb3e1ded11dd_icgraph.svg" width="383" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_ac03b75ea7a07a5f8d1fcdb3e1ded11dd_icgraph.svg" width="383" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -443,22 +440,21 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_acebc8035bb3e73be7ece4fcb5169b474_icgraph.svg" width="443" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_acebc8035bb3e73be7ece4fcb5169b474_icgraph.svg" width="443" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a7ccc33426ac800565cb6b5b11bbf32ce"></a>
+<a class="anchor" id="a8b3fc6d721104f252219e1d4e99bd5b2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void CParameterBlackboard::writeString </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>pcSrcData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -479,7 +475,7 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_a7ccc33426ac800565cb6b5b11bbf32ce_icgraph.svg" width="446" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCParameterBlackboard_a8b3fc6d721104f252219e1d4e99bd5b2_icgraph.svg" width="446" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -493,7 +489,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 14 2015 12:04:11 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2015 16:58:15 for parameter-framework by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

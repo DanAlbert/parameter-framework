@@ -6,8 +6,8 @@
 <area shape="rect" id="node6" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="356,254,508,281"/>
 <area shape="rect" id="node7" href="$classCElement.html#ae40b0165e010c310cc58c7d9fa174f64" title="CElement::clean" alt="" coords="369,305,495,331"/>
 <area shape="rect" id="node8" href="$classCConfigurableDomains.html#a6fd812eea1fd18c0d4fa14ec33b57fd5" title="CConfigurableDomains\l::validate" alt="" coords="348,356,516,397"/>
-<area shape="rect" id="node9" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="815,305,997,331"/>
-<area shape="rect" id="node10" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="834,422,978,449"/>
+<area shape="rect" id="node9" href="$classCElement.html#a25f58d9d8b35e770806d669fb2a378e4" title="CElement::getNbChildren" alt="" coords="815,305,997,331"/>
+<area shape="rect" id="node10" href="$classCElement.html#a41bf126c3fdbb5bec0c2c3dcf35e9079" title="CElement::getChild" alt="" coords="834,422,978,449"/>
 <area shape="rect" id="node11" href="$classCConfigurableDomain.html#a2df6f85b21fa2ccbecc4a1c6d01ae2ed" title="CConfigurableDomain\l::validate" alt="" coords="605,356,767,397"/>
 <area shape="rect" id="node12" href="$classCDomainConfiguration.html#a10c3a1e0899400ecd23a90fb7dc4e4e6" title="CDomainConfiguration\l::validate" alt="" coords="823,356,989,397"/>
 <area shape="rect" id="node13" href="$classCAreaConfiguration.html#a9c0ddade93f42f2ed315dd3a0719933c" title="CAreaConfiguration\l::validate" alt="" coords="1045,356,1192,397"/>

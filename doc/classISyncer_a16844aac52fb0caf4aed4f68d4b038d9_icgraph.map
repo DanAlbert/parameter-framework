@@ -10,11 +10,10 @@
 <area shape="rect" id="node12" href="$classCConfigurableDomains.html#ab8f2aa74fe0ed3e98fa052587d6c417d" title="CConfigurableDomains\l::apply" alt="" coords="1195,371,1363,412"/>
 <area shape="rect" id="node13" href="$classCConfigurableDomain.html#aa9e776e80956f8cc956b77213aae96ec" title="CConfigurableDomain\l::restoreConfiguration" alt="" coords="985,276,1147,317"/>
 <area shape="rect" id="node16" href="$classCHardwareBackSynchronizer.html#abc01484c03230247c0a8a3982140b652" title="CHardwareBackSynchronizer\l::sync" alt="" coords="437,224,644,265"/>
-<area shape="rect" id="node18" href="$classCParameterMgr.html#a3c23f1ef6dbe73de230fe429af194937" title="CParameterMgr::sync" alt="" coords="461,290,620,317"/>
+<area shape="rect" id="node17" href="$classCParameterMgr.html#a3c23f1ef6dbe73de230fe429af194937" title="CParameterMgr::sync" alt="" coords="461,290,620,317"/>
 <area shape="rect" id="node10" href="$classCDomainConfiguration.html#a1e837621d00a5ed2282c525c25a484e7" title="CDomainConfiguration\l::restore" alt="" coords="737,341,903,383"/>
 <area shape="rect" id="node11" href="$classCConfigurableDomain.html#a928805e163719f902c207c061ab3b1c2" title="CConfigurableDomain\l::apply" alt="" coords="985,341,1147,383"/>
 <area shape="rect" id="node14" href="$classCConfigurableDomains.html#a9fa62075b2521f79af18240367662cc7" title="CConfigurableDomains\l::restoreConfiguration" alt="" coords="1195,276,1363,317"/>
 <area shape="rect" id="node15" href="$classCParameterMgr.html#a04786772b59275eef5f1af23dc9a639d" title="CParameterMgr::restoreConfiguration" alt="" coords="1411,283,1672,310"/>
-<area shape="rect" id="node17" href="$classCParameterMgr.html#aad4830a40d67cfae091cbf1a15ff29d0" title="Load plugins, structures and settings from the config file given. " alt="" coords="741,231,899,258"/>
-<area shape="rect" id="node19" href="$classCParameterMgr.html#acdcc1016dc61898195e8855979803572" title="Sync. " alt="" coords="715,290,925,317"/>
+<area shape="rect" id="node18" href="$classCParameterMgr.html#acdcc1016dc61898195e8855979803572" title="Sync. " alt="" coords="715,290,925,317"/>
 </map>

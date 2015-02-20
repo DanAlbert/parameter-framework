@@ -1,0 +1,9 @@
+<map id="CPathNavigator::getCurrentPath" name="CPathNavigator::getCurrentPath">
+<area shape="rect" id="node3" href="$classCConfigurableElement.html#a1dae2debee4a443ce572f15e75247808" title="CConfigurableElement\l::accessValue" alt="" coords="308,29,471,75"/>
+<area shape="rect" id="node6" href="$classCInstanceConfigurableElement.html#a4355916fa36efbe5fb62894d0a5dc95f" title="CInstanceConfigurableElement\l::checkPathExhausted" alt="" coords="280,98,499,145"/>
+<area shape="rect" id="node10" href="$classCPathNavigator.html#ad588f1802ca5e196e96972273f36a80d" title="CPathNavigator::navigate\lThrough" alt="" coords="297,167,481,214"/>
+<area shape="rect" id="node8" href="$classCBaseParameter.html#a4a9b3e3a2d1ea65a8dc7048559db8dc2" title="CBaseParameter::accessValue" alt="" coords="555,107,771,136"/>
+<area shape="rect" id="node12" href="$classCParameterMgr.html#ad3ee51d6a9f2e0d0ea143a238120b5af" title="Returns the CConfigurableElement corresponding to the path given in argument. " alt="" coords="548,163,777,210"/>
+<area shape="rect" id="node16" href="$classCParameterMgr.html#a00467972dcf35bd3036a536f5c328436" title="Returns the element mapping corresponding to the path given in parameter. " alt="" coords="837,223,1056,270"/>
+<area shape="rect" id="node14" href="$classCParameterMgr.html#ada6dd503a49385c74029b7c0e8e1ba0e" title="CParameterMgr::createParameter\lHandle" alt="" coords="828,154,1065,201"/>
+</map>

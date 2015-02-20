@@ -1,14 +1,20 @@
 <map id="parameter/SystemClass.cpp" name="parameter/SystemClass.cpp">
-<area shape="rect" id="node11" href="$SystemClass_8h.html" title="SystemClass.h" alt="" coords="416,83,528,112"/>
-<area shape="rect" id="node29" href="$SubsystemLibrary_8h.html" title="SubsystemLibrary.h" alt="" coords="801,83,940,112"/>
-<area shape="rect" id="node36" href="$VirtualSubsystem_8h.html" title="VirtualSubsystem.h" alt="" coords="603,160,739,189"/>
-<area shape="rect" id="node38" href="$NamedElementBuilderTemplate_8h.html" title="NamedElementBuilderTemplate.h" alt="" coords="763,160,979,189"/>
-<area shape="rect" id="node41" href="$AutoLog_8h.html" title="AutoLog.h" alt="" coords="696,237,776,267"/>
-<area shape="rect" id="node48" href="$PluginLocation_8h.html" title="PluginLocation.h" alt="" coords="144,160,261,189"/>
-<area shape="rect" id="node52" href="$Utility_8h.html" title="Utility.h" alt="" coords="1045,315,1112,344"/>
-<area shape="rect" id="node13" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="517,237,672,267"/>
-<area shape="rect" id="node22" href="$SubsystemPlugins_8h.html" title="SubsystemPlugins.h" alt="" coords="336,160,477,189"/>
-<area shape="rect" id="node15" href="$Element_8h.html" title="Element.h" alt="" coords="568,315,648,344"/>
-<area shape="rect" id="node24" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="336,237,443,267"/>
-<area shape="rect" id="node31" href="$DefaultElementLibrary_8h.html" title="DefaultElementLibrary.h" alt="" coords="1136,315,1299,344"/>
+<area shape="rect" id="node11" href="$SystemClass_8h.html" title="SystemClass.h" alt="" coords="245,237,362,267"/>
+<area shape="rect" id="node44" href="$SubsystemLibrary_8h.html" title="SubsystemLibrary.h" alt="" coords="1090,83,1237,112"/>
+<area shape="rect" id="node59" href="$VirtualSubsystem_8h.html" title="VirtualSubsystem.h" alt="" coords="899,160,1046,189"/>
+<area shape="rect" id="node81" href="$NamedElementBuilderTemplate_8h.html" title="NamedElementBuilderTemplate.h" alt="" coords="1247,160,1482,189"/>
+<area shape="rect" id="node85" href="$AutoLog_8h.html" title="AutoLog.h" alt="" coords="983,392,1069,421"/>
+<area shape="rect" id="node93" href="$PluginLocation_8h.html" title="PluginLocation.h" alt="" coords="341,315,466,344"/>
+<area shape="rect" id="node13" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="693,392,858,421"/>
+<area shape="rect" id="node35" href="$SubsystemPlugins_8h.html" title="SubsystemPlugins.h" alt="" coords="117,315,266,344"/>
+<area shape="rect" id="node15" href="$Element_8h.html" title="Element.h" alt="" coords="1133,469,1218,499"/>
+<area shape="rect" id="node29" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="1386,547,1509,576"/>
+<area shape="rect" id="node37" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="269,392,383,421"/>
+<area shape="rect" id="node46" href="$DefaultElementLibrary_8h.html" title="DefaultElementLibrary.h" alt="" coords="1197,315,1370,344"/>
+<area shape="rect" id="node48" href="$ElementLibrary_8h.html" title="ElementLibrary.h" alt="" coords="1143,392,1271,421"/>
+<area shape="rect" id="node54" href="$ElementBuilder_8h.html" title="ElementBuilder.h" alt="" coords="1295,392,1426,421"/>
+<area shape="rect" id="node61" href="$Subsystem_8h.html" title="Subsystem.h" alt="" coords="919,237,1026,267"/>
+<area shape="rect" id="node64" href="$ConfigurableElementWithMapping_8h.html" title="ConfigurableElementWithMapping.h" alt="" coords="642,315,890,344"/>
+<area shape="rect" id="node68" href="$Mapper_8h.html" title="Mapper.h" alt="" coords="743,469,823,499"/>
+<area shape="rect" id="node71" href="$MappingContext_8h.html" title="MappingContext.h" alt="" coords="1634,547,1773,576"/>
 </map>

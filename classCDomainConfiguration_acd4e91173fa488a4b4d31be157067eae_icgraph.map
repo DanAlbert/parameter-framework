@@ -1,4 +1,5 @@
 <map id="CDomainConfiguration::split" name="CDomainConfiguration::split">
-<area shape="rect" id="node3" href="$classCConfigurableDomain.html#ab46c928e95685ce035fcde43b15fc454" title="CConfigurableDomain\l::split" alt="" coords="209,5,359,51"/>
-<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a4e439e424f32eb140e3578efc8c04d2b" title="CConfigurableDomains\l::split" alt="" coords="408,5,565,51"/>
+<area shape="rect" id="node3" href="$classCConfigurableDomain.html#aea88fe7f6e3f02217f5d9f0e2e820da2" title="CConfigurableDomain\l::split" alt="" coords="223,5,383,51"/>
+<area shape="rect" id="node5" href="$classCConfigurableDomains.html#ae01182802f0ce424d239ea19f9365330" title="CConfigurableDomains\l::split" alt="" coords="432,5,600,51"/>
+<area shape="rect" id="node7" href="$classCParameterMgr.html#a042735242f31241743085d2d9d7edcc5" title="CParameterMgr::split" alt="" coords="649,13,804,43"/>
 </map>

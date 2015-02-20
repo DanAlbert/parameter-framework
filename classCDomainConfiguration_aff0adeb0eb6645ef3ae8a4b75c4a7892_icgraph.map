@@ -1,4 +1,5 @@
 <map id="CDomainConfiguration::save" name="CDomainConfiguration::save">
-<area shape="rect" id="node3" href="$classCConfigurableDomain.html#aab893d1fbb26ce85f2e6851504dc526d" title="CConfigurableDomain\l::saveConfiguration" alt="" coords="209,5,359,51"/>
-<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a4f0ca37c7f635e2a138b441b5467e9b2" title="CConfigurableDomains\l::saveConfiguration" alt="" coords="408,5,565,51"/>
+<area shape="rect" id="node3" href="$classCConfigurableDomain.html#a7656ea4134ae47e8a19e1565c16323f0" title="CConfigurableDomain\l::saveConfiguration" alt="" coords="223,5,383,51"/>
+<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a1be81268a7220733d7aed82e75e8253c" title="CConfigurableDomains\l::saveConfiguration" alt="" coords="432,5,600,51"/>
+<area shape="rect" id="node7" href="$classCParameterMgr.html#aabb760bc56ad6e76f32bf732005730cb" title="CParameterMgr::saveConfiguration" alt="" coords="648,13,893,43"/>
 </map>

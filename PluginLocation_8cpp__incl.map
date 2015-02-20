@@ -1,4 +1,6 @@
 <map id="parameter/PluginLocation.cpp" name="parameter/PluginLocation.cpp">
-<area shape="rect" id="node3" href="$PluginLocation_8h.html" title="PluginLocation.h" alt="" coords="44,83,161,112"/>
-<area shape="rect" id="node7" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="97,160,204,189"/>
+<area shape="rect" id="node3" href="$PluginLocation_8h.html" title="PluginLocation.h" alt="" coords="85,83,211,112"/>
+<area shape="rect" id="node5" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="91,160,205,189"/>
+<area shape="rect" id="node7" href="$Element_8h.html" title="Element.h" alt="" coords="280,237,365,267"/>
+<area shape="rect" id="node21" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="332,315,455,344"/>
 </map>

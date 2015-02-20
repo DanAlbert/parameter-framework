@@ -1,11 +1,15 @@
 <map id="parameter/Syncer.h" name="parameter/Syncer.h">
-<area shape="rect" id="node3" href="$SubsystemObject_8h.html" title="parameter/SubsystemObject.h" alt="" coords="232,92,429,121"/>
-<area shape="rect" id="node11" href="$InstanceConfigurableElement_8cpp.html" title="parameter/InstanceConfigurable\lElement.cpp" alt="" coords="453,83,659,130"/>
-<area shape="rect" id="node13" href="$SyncerSet_8cpp.html" title="parameter/SyncerSet.cpp" alt="" coords="683,92,853,121"/>
-<area shape="rect" id="node15" href="$VirtualSyncer_8h.html" title="parameter/VirtualSyncer.h" alt="" coords="877,92,1051,121"/>
-<area shape="rect" id="node5" href="$FormattedSubsystemObject_8h.html" title="parameter/FormattedSubsystem\lObject.h" alt="" coords="5,179,213,226"/>
-<area shape="rect" id="node7" href="$SubsystemObjectCreator_8h.html" title="parameter/SubsystemObject\lCreator.h" alt="" coords="237,179,424,226"/>
-<area shape="rect" id="node9" href="$SubsystemObject_8cpp.html" title="parameter/SubsystemObject.cpp" alt="" coords="448,188,661,217"/>
-<area shape="rect" id="node17" href="$VirtualSubsystem_8cpp.html" title="parameter/VirtualSubsystem.cpp" alt="" coords="772,188,983,217"/>
-<area shape="rect" id="node19" href="$VirtualSyncer_8cpp.html" title="parameter/VirtualSyncer.cpp" alt="" coords="1007,188,1193,217"/>
+<area shape="rect" id="node3" href="$SubsystemObject_8h.html" title="parameter/SubsystemObject.h" alt="" coords="416,92,635,121"/>
+<area shape="rect" id="node19" href="$InstanceConfigurableElement_8cpp.html" title="parameter/InstanceConfigurable\lElement.cpp" alt="" coords="659,83,885,130"/>
+<area shape="rect" id="node21" href="$SyncerSet_8cpp.html" title="parameter/SyncerSet.cpp" alt="" coords="909,92,1096,121"/>
+<area shape="rect" id="node23" href="$VirtualSyncer_8h.html" title="parameter/VirtualSyncer.h" alt="" coords="1120,92,1309,121"/>
+<area shape="rect" id="node5" href="$FormattedSubsystemObject_8h.html" title="parameter/FormattedSubsystem\lObject.h" alt="" coords="59,179,291,226"/>
+<area shape="rect" id="node9" href="$SubsystemObjectCreator_8h.html" title="parameter/SubsystemObject\lCreator.h" alt="" coords="423,179,628,226"/>
+<area shape="rect" id="node17" href="$SubsystemObject_8cpp.html" title="parameter/SubsystemObject.cpp" alt="" coords="652,188,887,217"/>
+<area shape="rect" id="node7" href="$FormattedSubsystemObject_8cpp.html" title="parameter/FormattedSubsystem\lObject.cpp" alt="" coords="5,275,237,322"/>
+<area shape="rect" id="node11" href="$Subsystem_8cpp.html" title="parameter/Subsystem.cpp" alt="" coords="261,284,453,313"/>
+<area shape="rect" id="node13" href="$SubsystemObjectCreator_8cpp.html" title="parameter/SubsystemObject\lCreator.cpp" alt="" coords="477,275,683,322"/>
+<area shape="rect" id="node15" href="$SubsystemObjectFactory_8h.html" title="parameter/SubsystemObject\lFactory.h" alt="" coords="707,275,912,322"/>
+<area shape="rect" id="node25" href="$VirtualSubsystem_8cpp.html" title="parameter/VirtualSubsystem.cpp" alt="" coords="1004,188,1239,217"/>
+<area shape="rect" id="node27" href="$VirtualSyncer_8cpp.html" title="parameter/VirtualSyncer.cpp" alt="" coords="1263,188,1468,217"/>
 </map>

@@ -1,6 +1,12 @@
 <map id="parameter/SubsystemPlugins.h" name="parameter/SubsystemPlugins.h">
-<area shape="rect" id="node3" href="$SystemClass_8h.html" title="parameter/SystemClass.h" alt="" coords="137,83,311,112"/>
-<area shape="rect" id="node5" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="5,160,195,189"/>
-<area shape="rect" id="node10" href="$SubsystemPlugins_8cpp.html" title="parameter/SubsystemPlugins.cpp" alt="" coords="335,83,553,112"/>
-<area shape="rect" id="node7" href="$SystemClass_8cpp.html" title="parameter/SystemClass.cpp" alt="" coords="219,160,405,189"/>
+<area shape="rect" id="node3" href="$SystemClass_8h.html" title="parameter/SystemClass.h" alt="" coords="1067,83,1256,112"/>
+<area shape="rect" id="node15" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="913,352,1124,381"/>
+<area shape="rect" id="node5" href="$XmlDomainImportContext_8h.html" title="parameter/XmlDomainImport\lContext.h" alt="" coords="509,161,720,207"/>
+<area shape="rect" id="node24" href="$SystemClass_8cpp.html" title="parameter/SystemClass.cpp" alt="" coords="1129,169,1332,199"/>
+<area shape="rect" id="node7" href="$ConfigurableDomain_8h.html" title="parameter/ConfigurableDomain.h" alt="" coords="260,265,495,295"/>
+<area shape="rect" id="node9" href="$ConfigurableDomain_8cpp.html" title="parameter/ConfigurableDomain.cpp" alt="" coords="5,352,256,381"/>
+<area shape="rect" id="node18" href="$DomainConfiguration_8cpp.html" title="parameter/DomainConfiguration.cpp" alt="" coords="569,265,825,295"/>
+<area shape="rect" id="node21" href="$SelectionCriterionRule_8cpp.html" title="parameter/SelectionCriterion\lRule.cpp" alt="" coords="849,257,1055,303"/>
+<area shape="rect" id="node11" href="$ConfigurableDomains_8cpp.html" title="parameter/ConfigurableDomains.cpp" alt="" coords="280,352,539,381"/>
+<area shape="rect" id="node13" href="$ConfigurableElement_8cpp.html" title="parameter/ConfigurableElement.cpp" alt="" coords="563,352,816,381"/>
 </map>

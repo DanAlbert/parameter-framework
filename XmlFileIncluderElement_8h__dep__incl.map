@@ -1,4 +1,5 @@
 <map id="parameter/XmlFileIncluderElement.h" name="parameter/XmlFileIncluderElement.h">
-<area shape="rect" id="node3" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="5,111,195,140"/>
-<area shape="rect" id="node5" href="$XmlFileIncluderElement_8cpp.html" title="parameter/XmlFileIncluder\lElement.cpp" alt="" coords="219,102,392,149"/>
+<area shape="rect" id="node3" href="$FileIncluderElementBuilder_8h.html" title="parameter/FileIncluderElement\lBuilder.h" alt="" coords="5,102,221,149"/>
+<area shape="rect" id="node5" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="80,197,291,227"/>
+<area shape="rect" id="node8" href="$XmlFileIncluderElement_8cpp.html" title="parameter/XmlFileIncluder\lElement.cpp" alt="" coords="296,102,483,149"/>
 </map>

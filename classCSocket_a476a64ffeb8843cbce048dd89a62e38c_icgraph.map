@@ -1,3 +1,5 @@
 <map id="CSocket::read" name="CSocket::read">
-<area shape="rect" id="node3" href="$classCMessage.html#a07f57d64bb317a32b340751293048308" title="CMessage::serialize" alt="" coords="160,5,301,35"/>
+<area shape="rect" id="node3" href="$classCMessage.html#a934d70aff67a456a92124664d6e78e84" title="Write or read the message on pSocket. " alt="" coords="167,5,313,35"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#af14c089a76390ab8b7424bb69fad6352" title="sendAndDisplayCommand" alt="" coords="364,5,553,35"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="604,5,657,35"/>
 </map>

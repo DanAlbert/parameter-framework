@@ -6,7 +6,6 @@ var searchData=
   ['areaconfiguration_2eh',['AreaConfiguration.h',['../AreaConfiguration_8h.html',1,'']]],
   ['arrayparameter_2ecpp',['ArrayParameter.cpp',['../ArrayParameter_8cpp.html',1,'']]],
   ['arrayparameter_2eh',['ArrayParameter.h',['../ArrayParameter_8h.html',1,'']]],
-  ['autolock_2ecpp',['AutoLock.cpp',['../AutoLock_8cpp.html',1,'']]],
   ['autolock_2eh',['AutoLock.h',['../AutoLock_8h.html',1,'']]],
   ['autolog_2ecpp',['AutoLog.cpp',['../AutoLog_8cpp.html',1,'']]],
   ['autolog_2eh',['AutoLog.h',['../AutoLog_8h.html',1,'']]]

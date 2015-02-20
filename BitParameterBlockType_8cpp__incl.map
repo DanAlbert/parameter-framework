@@ -1,6 +1,10 @@
 <map id="parameter/BitParameterBlockType.cpp" name="parameter/BitParameterBlockType.cpp">
-<area shape="rect" id="node3" href="$BitParameterBlockType_8h.html" title="BitParameterBlockType.h" alt="" coords="5,179,176,208"/>
-<area shape="rect" id="node7" href="$BitParameterBlock_8h.html" title="BitParameterBlock.h" alt="" coords="204,101,345,131"/>
-<area shape="rect" id="node5" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="141,256,251,285"/>
-<area shape="rect" id="node9" href="$InstanceConfigurableElement_8h.html" title="InstanceConfigurableElement.h" alt="" coords="200,179,403,208"/>
+<area shape="rect" id="node3" href="$BitParameterBlockType_8h.html" title="BitParameterBlockType.h" alt="" coords="5,256,184,285"/>
+<area shape="rect" id="node28" href="$BitParameterBlock_8h.html" title="BitParameterBlock.h" alt="" coords="179,101,331,131"/>
+<area shape="rect" id="node5" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="120,333,235,363"/>
+<area shape="rect" id="node7" href="$Element_8h.html" title="Element.h" alt="" coords="555,411,640,440"/>
+<area shape="rect" id="node21" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="645,488,768,517"/>
+<area shape="rect" id="node30" href="$InstanceConfigurableElement_8h.html" title="InstanceConfigurableElement.h" alt="" coords="161,179,383,208"/>
+<area shape="rect" id="node32" href="$ConfigurableElementWithMapping_8h.html" title="ConfigurableElementWithMapping.h" alt="" coords="309,256,557,285"/>
+<area shape="rect" id="node34" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="515,333,680,363"/>
 </map>

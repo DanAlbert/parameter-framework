@@ -1,5 +1,7 @@
 <map id="parameter/InstanceConfigurableElement.h" name="parameter/InstanceConfigurableElement.h">
-<area shape="rect" id="node3" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="139,101,293,131"/>
-<area shape="rect" id="node10" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="5,101,115,131"/>
-<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="99,179,179,208"/>
+<area shape="rect" id="node3" href="$ConfigurableElementWithMapping_8h.html" title="ConfigurableElementWithMapping.h" alt="" coords="44,101,292,131"/>
+<area shape="rect" id="node28" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="218,179,333,208"/>
+<area shape="rect" id="node5" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="357,179,522,208"/>
+<area shape="rect" id="node7" href="$Element_8h.html" title="Element.h" alt="" coords="364,256,449,285"/>
+<area shape="rect" id="node21" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="196,333,318,363"/>
 </map>

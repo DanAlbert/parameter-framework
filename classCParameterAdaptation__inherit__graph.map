@@ -1,6 +1,5 @@
 <map id="CParameterAdaptation" name="CParameterAdaptation">
-<area shape="rect" id="node9" href="$classCLinearParameterAdaptation.html" title="CLinearParameterAdaptation" alt="" coords="5,237,195,267"/>
-<area shape="rect" id="node2" href="$classCElement.html" title="CElement" alt="" coords="60,83,140,112"/>
-<area shape="rect" id="node4" href="$classIXmlSink.html" title="IXmlSink" alt="" coords="9,5,84,35"/>
-<area shape="rect" id="node6" href="$classIXmlSource.html" title="IXmlSource" alt="" coords="108,5,199,35"/>
+<area shape="rect" id="node9" href="$classCLinearParameterAdaptation.html" title="CLinearParameterAdaptation" alt="" coords="24,237,229,267"/>
+<area shape="rect" id="node2" href="$classCElement.html" title="CElement" alt="" coords="85,83,168,112"/>
+<area shape="rect" id="node11" href="$classCLogarithmicParameterAdaptation.html" title="This class is used to perform a logarithmic adapation of type: (slopeNumerator / slopeDenominator) * ..." alt="" coords="5,315,248,344"/>
 </map>

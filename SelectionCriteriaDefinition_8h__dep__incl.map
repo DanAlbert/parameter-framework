@@ -1,5 +1,12 @@
 <map id="parameter/SelectionCriteriaDefinition.h" name="parameter/SelectionCriteriaDefinition.h">
-<area shape="rect" id="node3" href="$SelectionCriteria_8cpp.html" title="parameter/SelectionCriteria.cpp" alt="" coords="5,111,211,140"/>
-<area shape="rect" id="node5" href="$SelectionCriteriaDefinition_8cpp.html" title="parameter/SelectionCriteria\lDefinition.cpp" alt="" coords="235,102,413,149"/>
-<area shape="rect" id="node7" href="$SelectionCriterionRule_8cpp.html" title="parameter/SelectionCriterion\lRule.cpp" alt="" coords="437,102,624,149"/>
+<area shape="rect" id="node3" href="$XmlDomainImportContext_8h.html" title="parameter/XmlDomainImport\lContext.h" alt="" coords="541,102,752,149"/>
+<area shape="rect" id="node13" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="840,293,1051,323"/>
+<area shape="rect" id="node19" href="$SelectionCriterionRule_8cpp.html" title="parameter/SelectionCriterion\lRule.cpp" alt="" coords="881,198,1087,245"/>
+<area shape="rect" id="node22" href="$SelectionCriteria_8cpp.html" title="parameter/SelectionCriteria.cpp" alt="" coords="1161,111,1388,140"/>
+<area shape="rect" id="node24" href="$SelectionCriteriaDefinition_8cpp.html" title="parameter/SelectionCriteria\lDefinition.cpp" alt="" coords="1412,102,1609,149"/>
+<area shape="rect" id="node5" href="$ConfigurableDomain_8h.html" title="parameter/ConfigurableDomain.h" alt="" coords="292,207,527,236"/>
+<area shape="rect" id="node7" href="$ConfigurableDomain_8cpp.html" title="parameter/ConfigurableDomain.cpp" alt="" coords="5,293,256,323"/>
+<area shape="rect" id="node16" href="$DomainConfiguration_8cpp.html" title="parameter/DomainConfiguration.cpp" alt="" coords="601,207,857,236"/>
+<area shape="rect" id="node9" href="$ConfigurableDomains_8cpp.html" title="parameter/ConfigurableDomains.cpp" alt="" coords="280,293,539,323"/>
+<area shape="rect" id="node11" href="$ConfigurableElement_8cpp.html" title="parameter/ConfigurableElement.cpp" alt="" coords="563,293,816,323"/>
 </map>

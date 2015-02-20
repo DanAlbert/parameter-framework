@@ -1,6 +1,17 @@
 <map id="parameter/ConfigurableDomain.h" name="parameter/ConfigurableDomain.h">
-<area shape="rect" id="node3" href="$BinarySerializableElement_8h.html" title="BinarySerializableElement.h" alt="" coords="37,83,221,112"/>
-<area shape="rect" id="node14" href="$SyncerSet_8h.html" title="SyncerSet.h" alt="" coords="296,83,389,112"/>
-<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="141,160,221,189"/>
-<area shape="rect" id="node11" href="$BinaryStream_8h.html" title="BinaryStream.h" alt="" coords="5,160,117,189"/>
+<area shape="rect" id="node3" href="$BinarySerializableElement_8h.html" title="BinarySerializableElement.h" alt="" coords="164,315,364,344"/>
+<area shape="rect" id="node33" href="$XmlDomainImportContext_8h.html" title="XmlDomainImportContext.h" alt="" coords="1365,83,1565,112"/>
+<area shape="rect" id="node75" href="$SyncerSet_8h.html" title="SyncerSet.h" alt="" coords="544,83,643,112"/>
+<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="572,392,657,421"/>
+<area shape="rect" id="node24" href="$BinaryStream_8h.html" title="BinaryStream.h" alt="" coords="5,469,128,499"/>
+<area shape="rect" id="node19" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="203,469,325,499"/>
+<area shape="rect" id="node35" href="$XmlDomainSerializingContext_8h.html" title="XmlDomainSerializingContext.h" alt="" coords="1801,160,2023,189"/>
+<area shape="rect" id="node42" href="$SelectionCriteriaDefinition_8h.html" title="SelectionCriteriaDefinition.h" alt="" coords="735,160,932,189"/>
+<area shape="rect" id="node59" href="$SystemClass_8h.html" title="SystemClass.h" alt="" coords="1407,160,1524,189"/>
+<area shape="rect" id="node37" href="$XmlElementSerializingContext_8h.html" title="XmlElementSerializingContext.h" alt="" coords="1799,237,2025,267"/>
+<area shape="rect" id="node45" href="$SelectionCriterion_8h.html" title="SelectionCriterion.h" alt="" coords="760,237,907,267"/>
+<area shape="rect" id="node48" href="$SelectionCriterionType_8h.html" title="SelectionCriterionType.h" alt="" coords="641,315,815,344"/>
+<area shape="rect" id="node61" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="1305,315,1471,344"/>
+<area shape="rect" id="node65" href="$SubsystemPlugins_8h.html" title="SubsystemPlugins.h" alt="" coords="1193,237,1343,267"/>
+<area shape="rect" id="node67" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="1116,315,1231,344"/>
 </map>

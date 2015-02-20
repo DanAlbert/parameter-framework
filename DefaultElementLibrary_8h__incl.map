@@ -1,5 +1,6 @@
 <map id="parameter/DefaultElementLibrary.h" name="parameter/DefaultElementLibrary.h">
-<area shape="rect" id="node3" href="$ElementLibrary_8h.html" title="ElementLibrary.h" alt="" coords="47,101,167,131"/>
-<area shape="rect" id="node12" href="$ElementBuilder_8h.html" title="ElementBuilder.h" alt="" coords="191,101,311,131"/>
-<area shape="rect" id="node9" href="$Element_8h.html" title="Element.h" alt="" coords="193,179,273,208"/>
+<area shape="rect" id="node3" href="$ElementLibrary_8h.html" title="ElementLibrary.h" alt="" coords="36,101,164,131"/>
+<area shape="rect" id="node27" href="$ElementBuilder_8h.html" title="ElementBuilder.h" alt="" coords="324,101,455,131"/>
+<area shape="rect" id="node9" href="$Element_8h.html" title="Element.h" alt="" coords="433,179,519,208"/>
+<area shape="rect" id="node22" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="415,256,537,285"/>
 </map>

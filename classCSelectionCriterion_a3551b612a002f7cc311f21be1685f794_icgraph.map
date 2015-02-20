@@ -1,8 +1,12 @@
 <map id="CSelectionCriterion::getCriterionType" name="CSelectionCriterion::getCriterionType">
-<area shape="rect" id="node3" href="$classCSelectionCriterionRule.html#acdf7494ba957f261a3c98bc121c954d9" title="CSelectionCriterionRule\l::parse" alt="" coords="189,5,352,51"/>
-<area shape="rect" id="node7" href="$classCSelectionCriterionRule.html#aa135cc2d5e84c49d4119fe553eb1d434" title="CSelectionCriterionRule\l::dump" alt="" coords="189,74,352,121"/>
-<area shape="rect" id="node11" href="$classCSelectionCriterionRule.html#aa3536258af1e5f9cc1db535e7629d42c" title="CSelectionCriterionRule\l::fromXml" alt="" coords="189,143,352,190"/>
-<area shape="rect" id="node13" href="$classCSelectionCriterionRule.html#aa31aa27a5aba096913b6f5d1e59a9360" title="CSelectionCriterionRule\l::toXml" alt="" coords="189,213,352,259"/>
-<area shape="rect" id="node5" href="$classCRuleParser.html#ac741b7f66a80e711e799577079466a07" title="CRuleParser::parse" alt="" coords="413,13,549,43"/>
-<area shape="rect" id="node9" href="$classCSelectionCriterionRule.html#a0d969a10e25887a747f3ab3b5fe7f83b" title="CSelectionCriterionRule\l::logValue" alt="" coords="400,74,563,121"/>
+<area shape="rect" id="node3" href="$classCSelectionCriterionRule.html#a4ee8e0274ac8c7bf5a2452002aa7ae0e" title="CSelectionCriterionRule\l::parse" alt="" coords="197,5,368,51"/>
+<area shape="rect" id="node15" href="$classCSelectionCriterionRule.html#a0c1b3650a362380978983d23b6e9ec17" title="CSelectionCriterionRule\l::dump" alt="" coords="197,74,368,121"/>
+<area shape="rect" id="node19" href="$classCSelectionCriterionRule.html#aa3536258af1e5f9cc1db535e7629d42c" title="CSelectionCriterionRule\l::fromXml" alt="" coords="197,143,368,190"/>
+<area shape="rect" id="node21" href="$classCSelectionCriterionRule.html#aa31aa27a5aba096913b6f5d1e59a9360" title="CSelectionCriterionRule\l::toXml" alt="" coords="197,213,368,259"/>
+<area shape="rect" id="node5" href="$classCRuleParser.html#acbce516a22f0dca0af620e751d298f7a" title="CRuleParser::parse" alt="" coords="431,13,572,43"/>
+<area shape="rect" id="node7" href="$classCDomainConfiguration.html#a3b12c8d561b1e468bd03214326bdf450" title="CDomainConfiguration\l::setApplicationRule" alt="" coords="636,5,801,51"/>
+<area shape="rect" id="node9" href="$classCConfigurableDomain.html#ab28e6a66ae7197d4fa131193f32891f4" title="CConfigurableDomain\l::setApplicationRule" alt="" coords="852,5,1012,51"/>
+<area shape="rect" id="node11" href="$classCConfigurableDomains.html#ac2b2354eecc80c7ca4a71fe2f40606ed" title="CConfigurableDomains\l::setApplicationRule" alt="" coords="1061,5,1229,51"/>
+<area shape="rect" id="node13" href="$classCParameterMgr.html#af63f9ad7f792b2bf226afd791c1db70e" title="CParameterMgr::setApplicationRule" alt="" coords="1279,13,1524,43"/>
+<area shape="rect" id="node17" href="$classCSelectionCriterionRule.html#a11de0a5fc56c4a73ab7ba73e6c693912" title="CSelectionCriterionRule\l::logValue" alt="" coords="416,74,587,121"/>
 </map>

@@ -1,0 +1,10 @@
+<map id="CElement::setName" name="CElement::setName">
+<area shape="rect" id="node3" href="$classCConfigurableDomain.html#aa1fdeb04cae19531f2588e0419b53b84" title="CConfigurableDomain\l::fromXml" alt="" coords="220,5,380,51"/>
+<area shape="rect" id="node5" href="$classCElement.html#aa09118f89e5b3208ee92d0ec51151ccf" title="CElement::rename" alt="" coords="229,75,371,104"/>
+<area shape="rect" id="node17" href="$classCEnumValuePair.html#a75b1589707a64d5cf13145acde4dad03" title="CEnumValuePair::fromXml" alt="" coords="207,128,393,157"/>
+<area shape="rect" id="node7" href="$classCConfigurableDomain.html#a647386b073c9dd776f9cd9dcb24088a7" title="CConfigurableDomain\l::renameConfiguration" alt="" coords="444,31,609,78"/>
+<area shape="rect" id="node13" href="$classCConfigurableDomains.html#a5191495863bf95f1fc3beb545b410269" title="CConfigurableDomains\l::renameDomain" alt="" coords="443,101,611,147"/>
+<area shape="rect" id="node9" href="$classCConfigurableDomains.html#a052bfda8fb27ff5a1eeb0a53444031e8" title="CConfigurableDomains\l::renameConfiguration" alt="" coords="691,31,859,78"/>
+<area shape="rect" id="node11" href="$classCParameterMgr.html#af73dc2735e178eb3571400b76172b03e" title="CParameterMgr::renameConfiguration" alt="" coords="940,40,1204,69"/>
+<area shape="rect" id="node15" href="$classCParameterMgr.html#a7d8898361dc42076dccb72489e3e7a43" title="CParameterMgr::renameDomain" alt="" coords="660,109,889,139"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['remoteprotocolmsgtype',['RemoteProtocolMsgType',['../RemoteProcessorProtocol_8h.html#aa9af03763980e012c6b2e85dac0e7536',1,'RemoteProcessorProtocol.h']]]
+  ['estatus',['EStatus',['../classCRequestMessageGenerator.html#a23926e2b4016154a162eb4650814c016',1,'CRequestMessageGenerator']]]
 ];

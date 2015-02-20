@@ -1,10 +1,20 @@
 <map id="parameter/ConfigurableDomains.cpp" name="parameter/ConfigurableDomains.cpp">
-<area shape="rect" id="node5" href="$ConfigurableDomains_8h.html" title="ConfigurableDomains.h" alt="" coords="342,83,500,112"/>
-<area shape="rect" id="node13" href="$BinaryStream_8h.html" title="BinaryStream.h" alt="" coords="412,237,524,267"/>
-<area shape="rect" id="node18" href="$ConfigurableDomain_8h.html" title="ConfigurableDomain.h" alt="" coords="138,83,288,112"/>
-<area shape="rect" id="node29" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="670,160,825,189"/>
-<area shape="rect" id="node34" href="$AutoLog_8h.html" title="AutoLog.h" alt="" coords="620,83,700,112"/>
-<area shape="rect" id="node7" href="$BinarySerializableElement_8h.html" title="BinarySerializableElement.h" alt="" coords="361,160,545,189"/>
-<area shape="rect" id="node9" href="$Element_8h.html" title="Element.h" alt="" coords="577,237,657,267"/>
-<area shape="rect" id="node21" href="$SyncerSet_8h.html" title="SyncerSet.h" alt="" coords="22,160,116,189"/>
+<area shape="rect" id="node5" href="$ConfigurableDomains_8h.html" title="ConfigurableDomains.h" alt="" coords="149,315,320,344"/>
+<area shape="rect" id="node28" href="$BinaryStream_8h.html" title="BinaryStream.h" alt="" coords="44,469,167,499"/>
+<area shape="rect" id="node39" href="$ConfigurableDomain_8h.html" title="ConfigurableDomain.h" alt="" coords="656,83,819,112"/>
+<area shape="rect" id="node72" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="1127,315,1292,344"/>
+<area shape="rect" id="node97" href="$AutoLog_8h.html" title="AutoLog.h" alt="" coords="453,392,539,421"/>
+<area shape="rect" id="node7" href="$BinarySerializableElement_8h.html" title="BinarySerializableElement.h" alt="" coords="563,392,763,421"/>
+<area shape="rect" id="node9" href="$Element_8h.html" title="Element.h" alt="" coords="1288,469,1373,499"/>
+<area shape="rect" id="node23" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="1127,547,1249,576"/>
+<area shape="rect" id="node44" href="$XmlDomainImportContext_8h.html" title="XmlDomainImportContext.h" alt="" coords="1285,160,1485,189"/>
+<area shape="rect" id="node86" href="$SyncerSet_8h.html" title="SyncerSet.h" alt="" coords="395,315,493,344"/>
+<area shape="rect" id="node46" href="$XmlDomainSerializingContext_8h.html" title="XmlDomainSerializingContext.h" alt="" coords="951,237,1172,267"/>
+<area shape="rect" id="node53" href="$SelectionCriteriaDefinition_8h.html" title="SelectionCriteriaDefinition.h" alt="" coords="1505,237,1703,267"/>
+<area shape="rect" id="node70" href="$SystemClass_8h.html" title="SystemClass.h" alt="" coords="1327,237,1444,267"/>
+<area shape="rect" id="node48" href="$XmlElementSerializingContext_8h.html" title="XmlElementSerializingContext.h" alt="" coords="825,315,1052,344"/>
+<area shape="rect" id="node56" href="$SelectionCriterion_8h.html" title="SelectionCriterion.h" alt="" coords="1705,315,1852,344"/>
+<area shape="rect" id="node59" href="$SelectionCriterionType_8h.html" title="SelectionCriterionType.h" alt="" coords="1692,392,1865,421"/>
+<area shape="rect" id="node76" href="$SubsystemPlugins_8h.html" title="SubsystemPlugins.h" alt="" coords="1367,315,1516,344"/>
+<area shape="rect" id="node78" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="1297,392,1412,421"/>
 </map>

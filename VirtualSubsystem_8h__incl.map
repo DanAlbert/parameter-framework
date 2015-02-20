@@ -1,6 +1,9 @@
 <map id="parameter/VirtualSubsystem.h" name="parameter/VirtualSubsystem.h">
-<area shape="rect" id="node3" href="$Subsystem_8h.html" title="Subsystem.h" alt="" coords="297,83,396,112"/>
-<area shape="rect" id="node5" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="5,160,160,189"/>
-<area shape="rect" id="node7" href="$Mapper_8h.html" title="Mapper.h" alt="" coords="184,160,259,189"/>
-<area shape="rect" id="node9" href="$MappingContext_8h.html" title="MappingContext.h" alt="" coords="283,160,411,189"/>
+<area shape="rect" id="node3" href="$Subsystem_8h.html" title="Subsystem.h" alt="" coords="403,83,509,112"/>
+<area shape="rect" id="node5" href="$ConfigurableElement_8h.html" title="ConfigurableElement.h" alt="" coords="503,237,668,267"/>
+<area shape="rect" id="node27" href="$ConfigurableElementWithMapping_8h.html" title="ConfigurableElementWithMapping.h" alt="" coords="171,160,419,189"/>
+<area shape="rect" id="node31" href="$Mapper_8h.html" title="Mapper.h" alt="" coords="93,237,173,267"/>
+<area shape="rect" id="node34" href="$MappingContext_8h.html" title="MappingContext.h" alt="" coords="205,392,344,421"/>
+<area shape="rect" id="node7" href="$Element_8h.html" title="Element.h" alt="" coords="547,315,632,344"/>
+<area shape="rect" id="node21" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="653,392,776,421"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="parameter/BitParameterBlockType.h" name="parameter/BitParameterBlockType.h">
-<area shape="rect" id="node3" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="47,101,156,131"/>
-<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="61,179,141,208"/>
+<area shape="rect" id="node3" href="$TypeElement_8h.html" title="TypeElement.h" alt="" coords="101,101,216,131"/>
+<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="325,179,411,208"/>
+<area shape="rect" id="node19" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="501,256,624,285"/>
 </map>

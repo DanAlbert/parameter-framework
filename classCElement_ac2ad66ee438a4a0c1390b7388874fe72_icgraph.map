@@ -1,21 +1,32 @@
 <map id="CElement::addChild" name="CElement::addChild">
-<area shape="rect" id="node3" href="$classCConfigurableDomain.html#ab8039deaa1c8023554407ba8257069f1" title="CConfigurableDomain\l::createConfiguration" alt="" coords="225,5,375,51"/>
-<area shape="rect" id="node7" href="$classCConfigurableDomains.html#a69e2aaab262d12be37c68ddf7566eeca" title="Domains. " alt="" coords="221,74,379,121"/>
-<area shape="rect" id="node11" href="$classCElement.html#a0b4cdc10e6df8fd3740255c5faf3b596" title="Creates a child CElement from a child XML Element. " alt="" coords="223,144,377,173"/>
-<area shape="rect" id="node19" href="$classCParameterMgr.html#a5883bc270ce19e3a9b5eb43d1ceb8f01" title="CParameterMgr::CParameterMgr" alt="" coords="193,197,407,227"/>
-<area shape="rect" id="node21" href="$classCRuleParser.html#ac741b7f66a80e711e799577079466a07" title="CRuleParser::parse" alt="" coords="232,251,368,280"/>
-<area shape="rect" id="node25" href="$classCSelectionCriteria.html#a5c8850871021dbb3f23354130304ae0e" title="CSelectionCriteria\l::CSelectionCriteria" alt="" coords="232,303,368,350"/>
-<area shape="rect" id="node27" href="$classCSelectionCriteriaDefinition.html#a9a8e8782f10c79230e967220c74a738d" title="CSelectionCriteriaDefinition\l::createSelectionCriterion" alt="" coords="209,373,391,419"/>
-<area shape="rect" id="node31" href="$classCSelectionCriterionLibrary.html#a84be6fc12a809170fb6d114285997b1c" title="CSelectionCriterionLibrary\l::createSelectionCriterionType" alt="" coords="201,442,399,489"/>
-<area shape="rect" id="node35" href="$classCTypeElement.html#a7cdfd91a35b67d17fb2c92f8a2883854" title="CTypeElement::populate" alt="" coords="217,516,383,545"/>
-<area shape="rect" id="node42" href="$classCXmlFileIncluderElement.html#a754298eb75aacfe300ed3942d51611aa" title="CXmlFileIncluderElement\l::fromXml" alt="" coords="215,569,385,615"/>
-<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a3c53f1e52d128de337ed2bf83e9fb01e" title="CConfigurableDomains\l::createConfiguration" alt="" coords="479,5,636,51"/>
-<area shape="rect" id="node9" href="$classCParameterMgr.html#af8daa112488a3d906ac7ea89f13df4ef" title="CParameterMgr::createDomain" alt="" coords="456,79,659,108"/>
-<area shape="rect" id="node13" href="$classCComponentLibrary.html#ad4cc928cda43371fb31f20394e8e04e5" title="CComponentLibrary::\lfromXml" alt="" coords="707,161,853,207"/>
-<area shape="rect" id="node15" href="$classCElement.html#a1978d50e2db432e7b8f0928f33d3f01a" title="CElement::fromXml" alt="" coords="489,207,625,236"/>
-<area shape="rect" id="node23" href="$classCDomainConfiguration.html#a3934726d7dcfdd240c8beea57f268fd4" title="CDomainConfiguration\l::setApplicationRule" alt="" coords="480,259,635,306"/>
-<area shape="rect" id="node29" href="$classCSelectionCriteria.html#a3df24dd0721ce6cfca5123881c678436" title="CSelectionCriteria\l::createSelectionCriterion" alt="" coords="473,369,641,415"/>
-<area shape="rect" id="node33" href="$classCSelectionCriteria.html#a450f1208de1f19ad99740510b896a3af" title="CSelectionCriteria\l::createSelectionCriterionType" alt="" coords="459,438,656,485"/>
-<area shape="rect" id="node37" href="$classCInstanceDefinition.html#aa29d3b10a23894522cfaa937cf385d10" title="CInstanceDefinition\l::createInstances" alt="" coords="489,507,625,554"/>
-<area shape="rect" id="node39" href="$classCTypeElement.html#a0fd0b5dfb3e3515ff5b54eda3d7e0a45" title="CTypeElement::instantiate" alt="" coords="469,577,645,607"/>
+<area shape="rect" id="node3" href="$classCConfigurableDomain.html#a82e376a127b18da449923829825bcbed" title="CConfigurableDomain\l::createConfiguration" alt="" coords="236,17,396,63"/>
+<area shape="rect" id="node9" href="$classCConfigurableDomains.html#a879368ed109dc1a906205f8324d05d81" title="Domains. " alt="" coords="232,97,400,143"/>
+<area shape="rect" id="node13" href="$classCConfigurableDomains.html#a35d3b509ee35cb374fc7a2d1b678c203" title="CConfigurableDomains\l::addDomain" alt="" coords="232,189,400,235"/>
+<area shape="rect" id="node15" href="$classCElement.html#a0b4cdc10e6df8fd3740255c5faf3b596" title="Creates a child CElement from a child XML Element. " alt="" coords="235,365,397,395"/>
+<area shape="rect" id="node32" href="$classCParameterMgr.html#a62ac187a0a8c321c3a312d4b2eeb9da2" title="CParameterMgr::CParameterMgr" alt="" coords="201,312,431,341"/>
+<area shape="rect" id="node34" href="$classCRuleParser.html#acbce516a22f0dca0af620e751d298f7a" title="CRuleParser::parse" alt="" coords="245,259,387,288"/>
+<area shape="rect" id="node44" href="$classCSelectionCriteria.html#a5c8850871021dbb3f23354130304ae0e" title="CSelectionCriteria\l::CSelectionCriteria" alt="" coords="244,418,388,465"/>
+<area shape="rect" id="node46" href="$classCSelectionCriteriaDefinition.html#ad6447026bd630fa502212eeb6f419146" title="CSelectionCriteriaDefinition\l::createSelectionCriterion" alt="" coords="219,487,413,534"/>
+<area shape="rect" id="node52" href="$classCSelectionCriterionLibrary.html#a84be6fc12a809170fb6d114285997b1c" title="CSelectionCriterionLibrary\l::createSelectionCriterionType" alt="" coords="211,557,421,603"/>
+<area shape="rect" id="node58" href="$classCTypeElement.html#a7cdfd91a35b67d17fb2c92f8a2883854" title="CTypeElement::populate" alt="" coords="228,627,404,656"/>
+<area shape="rect" id="node66" href="$classCXmlFileIncluderElement.html#a754298eb75aacfe300ed3942d51611aa" title="CXmlFileIncluderElement\l::fromXml" alt="" coords="227,679,405,726"/>
+<area shape="rect" id="node5" href="$classCConfigurableDomains.html#aa96eec13d9bdbb307e1dcfe6f057a685" title="CConfigurableDomains\l::createConfiguration" alt="" coords="507,5,675,51"/>
+<area shape="rect" id="node7" href="$classCParameterMgr.html#ad60e8abcd5881a2833d24c3a531e16f0" title="CParameterMgr::createConfiguration" alt="" coords="749,13,1005,43"/>
+<area shape="rect" id="node11" href="$classCParameterMgr.html#af7d24a3ef2e52fb2aee19e303092d696" title="CParameterMgr::createDomain" alt="" coords="480,75,701,104"/>
+<area shape="rect" id="node17" href="$classCComponentLibrary.html#ad4cc928cda43371fb31f20394e8e04e5" title="CComponentLibrary::\lfromXml" alt="" coords="800,418,955,465"/>
+<area shape="rect" id="node21" href="$classCConfigurableElement.html#a0e3feb8a7b18a3291ec960c9726b4eaf" title="CConfigurableElement\l::serializeXmlSettings" alt="" coords="509,221,672,267"/>
+<area shape="rect" id="node26" href="$classCDomainConfiguration.html#a97554abea0968d2e55151302b0260b63" title="CDomainConfiguration\l::composeSettings" alt="" coords="508,290,673,337"/>
+<area shape="rect" id="node28" href="$classCElement.html#a1978d50e2db432e7b8f0928f33d3f01a" title="CElement::fromXml" alt="" coords="517,384,664,413"/>
+<area shape="rect" id="node19" href="$classCSubsystem.html#aa114a31f4aa4b0f47b3c616b721854d4" title="CSubsystem::fromXml" alt="" coords="1055,541,1220,571"/>
+<area shape="rect" id="node23" href="$classCAreaConfiguration.html#a6b8c95a79343ee9823b026d74184e798" title="CAreaConfiguration\l::serializeXmlSettings" alt="" coords="799,221,956,267"/>
+<area shape="rect" id="node36" href="$classCDomainConfiguration.html#a3b12c8d561b1e468bd03214326bdf450" title="CDomainConfiguration\l::setApplicationRule" alt="" coords="508,127,673,174"/>
+<area shape="rect" id="node38" href="$classCConfigurableDomain.html#ab28e6a66ae7197d4fa131193f32891f4" title="CConfigurableDomain\l::setApplicationRule" alt="" coords="797,127,957,174"/>
+<area shape="rect" id="node40" href="$classCConfigurableDomains.html#ac2b2354eecc80c7ca4a71fe2f40606ed" title="CConfigurableDomains\l::setApplicationRule" alt="" coords="1053,127,1221,174"/>
+<area shape="rect" id="node42" href="$classCParameterMgr.html#af63f9ad7f792b2bf226afd791c1db70e" title="CParameterMgr::setApplicationRule" alt="" coords="1271,136,1516,165"/>
+<area shape="rect" id="node48" href="$classCSelectionCriteria.html#af0f5289db594b0d2633c59cf8570fa50" title="CSelectionCriteria\l::createSelectionCriterion" alt="" coords="499,487,683,534"/>
+<area shape="rect" id="node50" href="$classCParameterMgr.html#a3b6a3500b78f43bfb894263689b809a7" title="CParameterMgr::createSelection\lCriterion" alt="" coords="763,487,992,534"/>
+<area shape="rect" id="node54" href="$classCSelectionCriteria.html#a450f1208de1f19ad99740510b896a3af" title="CSelectionCriteria\l::createSelectionCriterionType" alt="" coords="485,557,696,603"/>
+<area shape="rect" id="node56" href="$classCParameterMgr.html#a4d2a54a91f937ac71a1f7bbea2ffa1c2" title="CParameterMgr::createSelection\lCriterionType" alt="" coords="763,557,992,603"/>
+<area shape="rect" id="node60" href="$classCInstanceDefinition.html#aa29d3b10a23894522cfaa937cf385d10" title="CInstanceDefinition\l::createInstances" alt="" coords="805,647,949,694"/>
+<area shape="rect" id="node63" href="$classCTypeElement.html#a0fd0b5dfb3e3515ff5b54eda3d7e0a45" title="CTypeElement::instantiate" alt="" coords="497,627,684,656"/>
 </map>

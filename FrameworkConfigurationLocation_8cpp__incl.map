@@ -1,4 +1,6 @@
 <map id="parameter/FrameworkConfigurationLocation.cpp" name="parameter/FrameworkConfigurationLocation.cpp">
-<area shape="rect" id="node3" href="$FrameworkConfigurationLocation_8h.html" title="FrameworkConfigurationLocation.h" alt="" coords="5,101,229,131"/>
-<area shape="rect" id="node5" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="64,179,171,208"/>
+<area shape="rect" id="node3" href="$FrameworkConfigurationLocation_8h.html" title="FrameworkConfigurationLocation.h" alt="" coords="5,101,248,131"/>
+<area shape="rect" id="node5" href="$KindElement_8h.html" title="KindElement.h" alt="" coords="117,179,232,208"/>
+<area shape="rect" id="node7" href="$Element_8h.html" title="Element.h" alt="" coords="341,256,427,285"/>
+<area shape="rect" id="node21" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="517,333,640,363"/>
 </map>

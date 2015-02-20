@@ -1,0 +1,12 @@
+<map id="CConfigurableDomains::restoreConfiguration" name="CConfigurableDomains::restoreConfiguration">
+<area shape="rect" id="node3" href="$classCConfigurableDomains.html#a4dce38a1560b6e33871d3fa2d85cc449" title="CConfigurableDomains\l::findConfigurableDomain" alt="" coords="223,15,404,62"/>
+<area shape="rect" id="node7" href="$classCConfigurableDomain.html#aa9e776e80956f8cc956b77213aae96ec" title="CConfigurableDomain\l::restoreConfiguration" alt="" coords="233,103,393,150"/>
+<area shape="rect" id="node5" href="$classCElement.html#a8595814a3159f32f874269907e70b260" title="CElement::findChild" alt="" coords="464,5,611,35"/>
+<area shape="rect" id="node9" href="$classCElement.html#aaa4df1b13a53263f8cc2b668172873d9" title="CElement::log_info" alt="" coords="467,59,608,88"/>
+<area shape="rect" id="node11" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="461,112,613,141"/>
+<area shape="rect" id="node13" href="$classCDomainConfiguration.html#a1e837621d00a5ed2282c525c25a484e7" title="CDomainConfiguration\l::restore" alt="" coords="455,165,620,211"/>
+<area shape="rect" id="node19" href="$classCSyncerSet.html#a6ee2b3a5edcccc64b8694df736312e4b" title="CSyncerSet::sync" alt="" coords="880,233,1013,263"/>
+<area shape="rect" id="node15" href="$classCAreaConfiguration.html#a5f72a0349e2309a77459650ba10918a1" title="CAreaConfiguration\l::restore" alt="" coords="669,165,816,211"/>
+<area shape="rect" id="node17" href="$classCConfigurableElement.html#a29d61e6d09ff508ebb87aea802f2704e" title="CConfigurableElement\l::getOffset" alt="" coords="865,163,1028,210"/>
+<area shape="rect" id="node21" href="$classISyncer.html#a16844aac52fb0caf4aed4f68d4b038d9" title="ISyncer::sync" alt="" coords="1077,233,1184,263"/>
+</map>

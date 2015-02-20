@@ -1,3 +1,5 @@
 <map id="CMessage::getMsgId" name="CMessage::getMsgId">
-<area shape="rect" id="node3" href="$classCAnswerMessage.html#af22d01ea3de76ad0e82513eab0d7e7ce" title="CAnswerMessage::success" alt="" coords="200,5,387,35"/>
+<area shape="rect" id="node3" href="$classCAnswerMessage.html#af22d01ea3de76ad0e82513eab0d7e7ce" title="CAnswerMessage::success" alt="" coords="209,5,401,35"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#af14c089a76390ab8b7424bb69fad6352" title="sendAndDisplayCommand" alt="" coords="452,5,641,35"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="692,5,745,35"/>
 </map>

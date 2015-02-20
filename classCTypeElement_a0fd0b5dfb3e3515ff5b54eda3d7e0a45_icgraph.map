@@ -1,4 +1,5 @@
 <map id="CTypeElement::instantiate" name="CTypeElement::instantiate">
-<area shape="rect" id="node3" href="$classCTypeElement.html#a7cdfd91a35b67d17fb2c92f8a2883854" title="CTypeElement::populate" alt="" coords="233,13,399,43"/>
-<area shape="rect" id="node5" href="$classCInstanceDefinition.html#aa29d3b10a23894522cfaa937cf385d10" title="CInstanceDefinition\l::createInstances" alt="" coords="449,5,585,51"/>
+<area shape="rect" id="node3" href="$classCTypeElement.html#a7cdfd91a35b67d17fb2c92f8a2883854" title="CTypeElement::populate" alt="" coords="243,13,419,43"/>
+<area shape="rect" id="node5" href="$classCInstanceDefinition.html#aa29d3b10a23894522cfaa937cf385d10" title="CInstanceDefinition\l::createInstances" alt="" coords="468,5,612,51"/>
+<area shape="rect" id="node7" href="$classCSubsystem.html#aa114a31f4aa4b0f47b3c616b721854d4" title="CSubsystem::fromXml" alt="" coords="661,13,827,43"/>
 </map>

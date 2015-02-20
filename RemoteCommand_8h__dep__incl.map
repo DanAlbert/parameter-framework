@@ -1,8 +1,17 @@
 <map id="remote&#45;processor/RemoteCommand.h" name="remote&#45;processor/RemoteCommand.h">
-<area shape="rect" id="node3" href="$RemoteCommandHandler_8h.html" title="remote&#45;processor/RemoteCommand\lHandler.h" alt="" coords="261,83,493,130"/>
-<area shape="rect" id="node9" href="$RequestMessage_8h.html" title="remote&#45;processor/Request\lMessage.h" alt="" coords="531,83,707,130"/>
-<area shape="rect" id="node5" href="$RemoteCommandHandlerTemplate_8h.html" title="remote&#45;processor/RemoteCommand\lHandlerTemplate.h" alt="" coords="5,179,237,226"/>
-<area shape="rect" id="node7" href="$RemoteProcessorServer_8cpp.html" title="remote&#45;processor/RemoteProcessor\lServer.cpp" alt="" coords="261,179,493,226"/>
-<area shape="rect" id="node11" href="$RemoteProcessorServerInterface_8h.html" title="remote&#45;processor/RemoteProcessor\lServerInterface.h" alt="" coords="517,179,749,226"/>
-<area shape="rect" id="node14" href="$RequestMessage_8cpp.html" title="remote&#45;processor/Request\lMessage.cpp" alt="" coords="773,179,949,226"/>
+<area shape="rect" id="node3" href="$RemoteCommandHandler_8h.html" title="remote&#45;processor/RemoteCommand\lHandler.h" alt="" coords="968,83,1224,130"/>
+<area shape="rect" id="node23" href="$RequestMessage_8h.html" title="remote&#45;processor/Request\lMessage.h" alt="" coords="1248,83,1440,130"/>
+<area shape="rect" id="node5" href="$RemoteCommandHandlerTemplate_8h.html" title="remote&#45;processor/RemoteCommand\lHandlerTemplate.h" alt="" coords="460,179,716,226"/>
+<area shape="rect" id="node21" href="$RemoteProcessorServer_8cpp.html" title="remote&#45;processor/RemoteProcessor\lServer.cpp" alt="" coords="1165,371,1419,418"/>
+<area shape="rect" id="node7" href="$ParameterMgr_8h.html" title="parameter/ParameterMgr.h" alt="" coords="428,284,623,313"/>
+<area shape="rect" id="node9" href="$ParameterHandle_8cpp.html" title="parameter/ParameterHandle.cpp" alt="" coords="347,380,579,409"/>
+<area shape="rect" id="node11" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="653,380,864,409"/>
+<area shape="rect" id="node13" href="$ParameterMgrFullConnector_8cpp.html" title="parameter/ParameterMgrFull\lConnector.cpp" alt="" coords="389,467,595,514"/>
+<area shape="rect" id="node15" href="$ParameterMgrLogger_8h.html" title="parameter/ParameterMgrLogger.h" alt="" coords="83,380,323,409"/>
+<area shape="rect" id="node18" href="$ParameterMgrPlatformConnector_8cpp.html" title="parameter/ParameterMgrPlatform\lConnector.cpp" alt="" coords="5,467,243,514"/>
+<area shape="rect" id="node25" href="$main_8cpp.html" title="remote&#45;process/main.cpp" alt="" coords="1192,188,1379,217"/>
+<area shape="rect" id="node27" href="$RemoteProcessorServerInterface_8h.html" title="remote&#45;processor/RemoteProcessor\lServerInterface.h" alt="" coords="864,179,1117,226"/>
+<area shape="rect" id="node36" href="$RequestMessage_8cpp.html" title="remote&#45;processor/Request\lMessage.cpp" alt="" coords="1403,179,1595,226"/>
+<area shape="rect" id="node30" href="$RemoteProcessorServer_8h.html" title="remote&#45;processor/RemoteProcessor\lServer.h" alt="" coords="864,275,1117,322"/>
+<area shape="rect" id="node33" href="$RemoteProcessorServerBuilder_8cpp.html" title="remote&#45;processor/RemoteProcessor\lServerBuilder.cpp" alt="" coords="888,371,1141,418"/>
 </map>

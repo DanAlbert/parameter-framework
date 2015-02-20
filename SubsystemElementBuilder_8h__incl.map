@@ -1,4 +1,5 @@
 <map id="parameter/SubsystemElementBuilder.h" name="parameter/SubsystemElementBuilder.h">
-<area shape="rect" id="node3" href="$ElementBuilder_8h.html" title="ElementBuilder.h" alt="" coords="44,101,164,131"/>
-<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="64,179,144,208"/>
+<area shape="rect" id="node3" href="$ElementBuilder_8h.html" title="ElementBuilder.h" alt="" coords="208,101,339,131"/>
+<area shape="rect" id="node5" href="$Element_8h.html" title="Element.h" alt="" coords="231,179,316,208"/>
+<area shape="rect" id="node19" href="$PathNavigator_8h.html" title="PathNavigator.h" alt="" coords="113,256,236,285"/>
 </map>

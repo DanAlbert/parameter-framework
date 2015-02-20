@@ -1,4 +1,11 @@
 <map id="parameter/SystemClass.h" name="parameter/SystemClass.h">
-<area shape="rect" id="node3" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="5,83,195,112"/>
-<area shape="rect" id="node5" href="$SystemClass_8cpp.html" title="parameter/SystemClass.cpp" alt="" coords="219,83,405,112"/>
+<area shape="rect" id="node3" href="$XmlDomainImportContext_8h.html" title="parameter/XmlDomainImport\lContext.h" alt="" coords="541,83,752,130"/>
+<area shape="rect" id="node13" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="840,275,1051,304"/>
+<area shape="rect" id="node22" href="$SystemClass_8cpp.html" title="parameter/SystemClass.cpp" alt="" coords="1161,92,1364,121"/>
+<area shape="rect" id="node5" href="$ConfigurableDomain_8h.html" title="parameter/ConfigurableDomain.h" alt="" coords="292,188,527,217"/>
+<area shape="rect" id="node7" href="$ConfigurableDomain_8cpp.html" title="parameter/ConfigurableDomain.cpp" alt="" coords="5,275,256,304"/>
+<area shape="rect" id="node16" href="$DomainConfiguration_8cpp.html" title="parameter/DomainConfiguration.cpp" alt="" coords="601,188,857,217"/>
+<area shape="rect" id="node19" href="$SelectionCriterionRule_8cpp.html" title="parameter/SelectionCriterion\lRule.cpp" alt="" coords="881,179,1087,226"/>
+<area shape="rect" id="node9" href="$ConfigurableDomains_8cpp.html" title="parameter/ConfigurableDomains.cpp" alt="" coords="280,275,539,304"/>
+<area shape="rect" id="node11" href="$ConfigurableElement_8cpp.html" title="parameter/ConfigurableElement.cpp" alt="" coords="563,275,816,304"/>
 </map>

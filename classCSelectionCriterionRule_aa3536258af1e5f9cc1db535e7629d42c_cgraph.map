@@ -1,7 +1,0 @@
-<map id="CSelectionCriterionRule::fromXml" name="CSelectionCriterionRule::fromXml">
-<area shape="rect" id="node3" href="$classCXmlDomainImportContext.html#a6846a8b738626da74a630624f3635730" title="CXmlDomainImportContext\l::getSelectionCriteriaDefinition" alt="" coords="224,5,440,51"/>
-<area shape="rect" id="node5" href="$classCSelectionCriteriaDefinition.html#ade9c9f7fe7806988d3d922bf615e5994" title="CSelectionCriteriaDefinition\l::getSelectionCriterion" alt="" coords="235,74,429,121"/>
-<area shape="rect" id="node9" href="$classCSelectionCriterionRule.html#abe9fe67a6a2eae27e239070d173d04e0" title="CSelectionCriterionRule\l::getKind" alt="" coords="247,143,417,190"/>
-<area shape="rect" id="node11" href="$classCSelectionCriterion.html#a3551b612a002f7cc311f21be1685f794" title="CSelectionCriterion\l::getCriterionType" alt="" coords="260,213,404,259"/>
-<area shape="rect" id="node7" href="$classCElement.html#a8595814a3159f32f874269907e70b260" title="CElement::findChild" alt="" coords="488,83,635,112"/>
-</map>

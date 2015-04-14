@@ -1,8 +1,0 @@
-<map id="CElementBuilder" name="CElementBuilder">
-<area shape="rect" id="node3" href="$classCFileIncluderElementBuilder.html" title="This is the XmlFileIncluderElement builder class. " alt="" coords="201,5,399,35"/>
-<area shape="rect" id="node5" href="$classCSubsystemElementBuilder.html" title="CSubsystemElementBuilder" alt="" coords="200,59,400,88"/>
-<area shape="rect" id="node7" href="$classTElementBuilderTemplate.html" title="TElementBuilderTemplate\l\&lt; ElementType \&gt;" alt="" coords="208,111,392,158"/>
-<area shape="rect" id="node9" href="$classTKindElementBuilderTemplate.html" title="TKindElementBuilderTemplate\l\&lt; ElementType \&gt;" alt="" coords="195,181,405,227"/>
-<area shape="rect" id="node11" href="$classTNamedElementBuilderTemplate.html" title="TNamedElementBuilderTemplate\l\&lt; ElementType \&gt;" alt="" coords="185,250,415,297"/>
-<area shape="rect" id="node13" href="$classTNamedElementBuilderTemplate.html" title="TNamedElementBuilderTemplate\l\&lt; CVirtualSubsystem \&gt;" alt="" coords="623,285,852,331"/>
-</map>

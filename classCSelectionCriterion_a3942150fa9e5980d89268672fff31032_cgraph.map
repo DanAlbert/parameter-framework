@@ -1,6 +1,0 @@
-<map id="CSelectionCriterion::toXml" name="CSelectionCriterion::toXml">
-<area shape="rect" id="node3" href="$classCSelectionCriterionType.html#acf1d7bbd1dc0b21897cdf7cf3d362bb3" title="CSelectionCriterionType\l::getFormattedState" alt="" coords="199,5,369,51"/>
-<area shape="rect" id="node7" href="$classCSelectionCriterionType.html#a95813f4b14f06857afaf8a50d0d62600" title="Export to XML. " alt="" coords="199,74,369,121"/>
-<area shape="rect" id="node5" href="$classCSelectionCriterionType.html#ae526e3679a02dd85be47abe8a548f1ee" title="CSelectionCriterionType\l::getLiteralValue" alt="" coords="420,5,591,51"/>
-<area shape="rect" id="node9" href="$classCSelectionCriterionType.html#ae88c284c1f002d7237f25e9c21dcf44f" title="CSelectionCriterionType\l::isTypeInclusive" alt="" coords="420,74,591,121"/>
-</map>

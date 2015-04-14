@@ -1,0 +1,16 @@
+<map id="CParameterMgr::importDomainsXml" name="CParameterMgr::importDomainsXml">
+<area shape="rect" id="node2" href="$classCXmlDomainImportContext.html#a3cbe5e251bc41e6ae2166c4dc0e8a2d2" title="CXmlDomainImportContext\l::setSelectionCriteriaDefinition" alt="" coords="325,5,539,47"/>
+<area shape="rect" id="node3" href="$classCXmlElementSerializingContext.html#a45179689ee6f0e003c53552534483285" title="CXmlElementSerializingContext::set" alt="" coords="307,71,557,98"/>
+<area shape="rect" id="node4" href="$classCElementLibrarySet.html#a301363ecb3eb99b4f9391f307e0f946a" title="CElementLibrarySet\l::getElementLibrary" alt="" coords="357,123,507,164"/>
+<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a48b940a3ba127dc0008f9680968e7afb" title="CConfigurableDomains\l::getKind" alt="" coords="348,188,516,229"/>
+<area shape="rect" id="node6" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="356,254,508,281"/>
+<area shape="rect" id="node7" href="$classCElement.html#ae40b0165e010c310cc58c7d9fa174f64" title="CElement::clean" alt="" coords="369,305,495,331"/>
+<area shape="rect" id="node8" href="$classCConfigurableDomains.html#a6fd812eea1fd18c0d4fa14ec33b57fd5" title="CConfigurableDomains\l::validate" alt="" coords="348,356,516,397"/>
+<area shape="rect" id="node9" href="$classCElement.html#a58b6cdb5715497442fde6afa1e65f8e5" title="CElement::getNbChildren" alt="" coords="815,305,997,331"/>
+<area shape="rect" id="node10" href="$classCElement.html#a9bba10d2dc72821589a898e16ace9ae5" title="Get a child element (const) " alt="" coords="834,422,978,449"/>
+<area shape="rect" id="node11" href="$classCConfigurableDomain.html#a2df6f85b21fa2ccbecc4a1c6d01ae2ed" title="CConfigurableDomain\l::validate" alt="" coords="605,356,767,397"/>
+<area shape="rect" id="node12" href="$classCDomainConfiguration.html#a10c3a1e0899400ecd23a90fb7dc4e4e6" title="CDomainConfiguration\l::validate" alt="" coords="823,356,989,397"/>
+<area shape="rect" id="node13" href="$classCAreaConfiguration.html#a9c0ddade93f42f2ed315dd3a0719933c" title="CAreaConfiguration\l::validate" alt="" coords="1045,356,1192,397"/>
+<area shape="rect" id="node14" href="$classCAreaConfiguration.html#a0ab61255d58c402f059aceb6668b943d" title="CAreaConfiguration\l::save" alt="" coords="1240,356,1387,397"/>
+<area shape="rect" id="node15" href="$classCConfigurableElement.html#a29d61e6d09ff508ebb87aea802f2704e" title="CConfigurableElement\l::getOffset" alt="" coords="1435,356,1599,397"/>
+</map>

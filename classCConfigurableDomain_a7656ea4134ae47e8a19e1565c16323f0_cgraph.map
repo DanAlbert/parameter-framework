@@ -1,7 +1,0 @@
-<map id="CConfigurableDomain::saveConfiguration" name="CConfigurableDomain::saveConfiguration">
-<area shape="rect" id="node3" href="$classCElement.html#aaa4df1b13a53263f8cc2b668172873d9" title="CElement::log_info" alt="" coords="229,5,371,35"/>
-<area shape="rect" id="node5" href="$classCElement.html#a49581fb6412e29e932962acd82d52d6a" title="CElement::getName" alt="" coords="224,59,376,88"/>
-<area shape="rect" id="node7" href="$classCDomainConfiguration.html#aff0adeb0eb6645ef3ae8a4b75c4a7892" title="CDomainConfiguration\l::save" alt="" coords="217,111,383,158"/>
-<area shape="rect" id="node9" href="$classCAreaConfiguration.html#a0ab61255d58c402f059aceb6668b943d" title="CAreaConfiguration\l::save" alt="" coords="432,111,579,158"/>
-<area shape="rect" id="node11" href="$classCConfigurableElement.html#a29d61e6d09ff508ebb87aea802f2704e" title="CConfigurableElement\l::getOffset" alt="" coords="628,111,791,158"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="CDomainConfiguration::validate" name="CDomainConfiguration::validate">
-<area shape="rect" id="node3" href="$classCConfigurableDomain.html#a2df6f85b21fa2ccbecc4a1c6d01ae2ed" title="CConfigurableDomain\l::validate" alt="" coords="223,23,383,70"/>
-<area shape="rect" id="node5" href="$classCConfigurableDomains.html#a6fd812eea1fd18c0d4fa14ec33b57fd5" title="CConfigurableDomains\l::validate" alt="" coords="432,23,600,70"/>
-<area shape="rect" id="node7" href="$classCParameterMgr.html#aad4830a40d67cfae091cbf1a15ff29d0" title="Load plugins, structures and settings from the config file given. " alt="" coords="696,5,853,35"/>
-<area shape="rect" id="node9" href="$classCParameterMgr.html#ab17dc57a1b642c10df433c2c971f93c0" title="Method that imports Configurable Domains from an Xml source. " alt="" coords="648,59,901,88"/>
-</map>

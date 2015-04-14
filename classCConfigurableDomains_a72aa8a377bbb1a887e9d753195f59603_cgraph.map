@@ -1,6 +1,0 @@
-<map id="CConfigurableDomains::clearApplicationRule" name="CConfigurableDomains::clearApplicationRule">
-<area shape="rect" id="node3" href="$classCConfigurableDomains.html#a4dce38a1560b6e33871d3fa2d85cc449" title="CConfigurableDomains\l::findConfigurableDomain" alt="" coords="223,5,404,51"/>
-<area shape="rect" id="node7" href="$classCConfigurableDomain.html#aa6c2f539bef4c64d1751e6454c6114ee" title="CConfigurableDomain\l::clearApplicationRule" alt="" coords="233,74,393,121"/>
-<area shape="rect" id="node5" href="$classCElement.html#a8595814a3159f32f874269907e70b260" title="CElement::findChild" alt="" coords="464,13,611,43"/>
-<area shape="rect" id="node9" href="$classCDomainConfiguration.html#ac733a8c164fc16fa94cc98eda37b255f" title="CDomainConfiguration\l::clearApplicationRule" alt="" coords="455,74,620,121"/>
-</map>

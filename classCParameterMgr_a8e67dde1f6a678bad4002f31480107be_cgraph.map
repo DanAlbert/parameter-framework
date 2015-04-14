@@ -1,6 +1,0 @@
-<map id="CParameterMgr::exportSingleDomainXml" name="CParameterMgr::exportSingleDomainXml">
-<area shape="rect" id="node3" href="$classCConfigurableDomains.html#a4dce38a1560b6e33871d3fa2d85cc449" title="CConfigurableDomains\l::findConfigurableDomain" alt="" coords="272,5,453,51"/>
-<area shape="rect" id="node7" href="$classCXmlDomainExportContext.html#af96234ea49123b30efa51a7023f07c8f" title="CXmlDomainExportContext\l::setValueSpaceRaw" alt="" coords="265,74,460,121"/>
-<area shape="rect" id="node9" href="$classCXmlDomainExportContext.html#a76304ae01cb688634fb64dab8717fb7d" title="CXmlDomainExportContext\l::setOutputRawFormat" alt="" coords="265,143,460,190"/>
-<area shape="rect" id="node5" href="$classCElement.html#a8595814a3159f32f874269907e70b260" title="CElement::findChild" alt="" coords="509,13,656,43"/>
-</map>

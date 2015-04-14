@@ -1,9 +1,0 @@
-<map id="parameter/Rule.h" name="parameter/Rule.h">
-<area shape="rect" id="node3" href="$CompoundRule_8h.html" title="parameter/CompoundRule.h" alt="" coords="512,92,715,121"/>
-<area shape="rect" id="node13" href="$SelectionCriterionRule_8h.html" title="parameter/SelectionCriterion\lRule.h" alt="" coords="739,83,944,130"/>
-<area shape="rect" id="node5" href="$CompoundRule_8cpp.html" title="parameter/CompoundRule.cpp" alt="" coords="285,188,501,217"/>
-<area shape="rect" id="node7" href="$DomainConfiguration_8cpp.html" title="parameter/DomainConfiguration.cpp" alt="" coords="5,188,261,217"/>
-<area shape="rect" id="node9" href="$ParameterMgr_8cpp.html" title="parameter/ParameterMgr.cpp" alt="" coords="736,188,947,217"/>
-<area shape="rect" id="node11" href="$RuleParser_8cpp.html" title="parameter/RuleParser.cpp" alt="" coords="525,188,712,217"/>
-<area shape="rect" id="node17" href="$SelectionCriterionRule_8cpp.html" title="parameter/SelectionCriterion\lRule.cpp" alt="" coords="971,179,1176,226"/>
-</map>

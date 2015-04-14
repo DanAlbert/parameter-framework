@@ -1,8 +1,0 @@
-<map id="CParameter" name="CParameter">
-<area shape="rect" id="node17" href="$classCArrayParameter.html" title="CArrayParameter" alt="" coords="49,565,180,595"/>
-<area shape="rect" id="node2" href="$classCBaseParameter.html" title="CBaseParameter" alt="" coords="49,411,180,440"/>
-<area shape="rect" id="node4" href="$classCInstanceConfigurableElement.html" title="CInstanceConfigurableElement" alt="" coords="5,333,224,363"/>
-<area shape="rect" id="node6" href="$classCConfigurableElementWithMapping.html" title="Base class for all Configurable Elements that can have a Mapping attribute. " alt="" coords="20,238,209,285"/>
-<area shape="rect" id="node8" href="$classCConfigurableElement.html" title="CConfigurableElement" alt="" coords="33,160,196,189"/>
-<area shape="rect" id="node10" href="$classCElement.html" title="CElement" alt="" coords="73,83,156,112"/>
-</map>

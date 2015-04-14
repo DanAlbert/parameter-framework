@@ -1,5 +1,0 @@
-<map id="CSubsystem::needResync" name="CSubsystem::needResync">
-<area shape="rect" id="node3" href="$classCSystemClass.html#ab71ea33fad4ce8978ad2577314146fec" title="Look for subsystems that need to be resynchronized. " alt="" coords="240,5,499,51"/>
-<area shape="rect" id="node5" href="$classCSystemClass.html#ae6f4699f2c40ce3a72bde018aa4453ad" title="Reset subsystems need to resync flag. " alt="" coords="252,74,487,121"/>
-<area shape="rect" id="node7" href="$classCParameterMgr.html#aad4830a40d67cfae091cbf1a15ff29d0" title="Load plugins, structures and settings from the config file given. " alt="" coords="547,83,704,112"/>
-</map>

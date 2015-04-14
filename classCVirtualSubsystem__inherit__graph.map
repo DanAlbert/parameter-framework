@@ -1,7 +1,0 @@
-<map id="CVirtualSubsystem" name="CVirtualSubsystem">
-<area shape="rect" id="node2" href="$classCSubsystem.html" title="CSubsystem" alt="" coords="127,333,228,363"/>
-<area shape="rect" id="node4" href="$classCConfigurableElementWithMapping.html" title="Base class for all Configurable Elements that can have a Mapping attribute. " alt="" coords="5,238,195,285"/>
-<area shape="rect" id="node6" href="$classCConfigurableElement.html" title="CConfigurableElement" alt="" coords="19,160,181,189"/>
-<area shape="rect" id="node8" href="$classCElement.html" title="CElement" alt="" coords="59,83,141,112"/>
-<area shape="rect" id="node14" href="$classIMapper.html" title="IMapper" alt="" coords="219,247,291,276"/>
-</map>
